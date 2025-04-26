@@ -1,13 +1,14 @@
-import { useState } from "react";
-import Navbar from "./components/Navbar";
 import "./App.css";
 import AboutPage from "./components/pages/about";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <AboutPage />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AboutPage />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
