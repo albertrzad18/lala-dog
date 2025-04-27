@@ -4,12 +4,12 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full h-72 md:h-36 bg-gray-300 z-50 shadow-md">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between p-4 md:p-6">
-        <ul className="flex flex-row gap-6 md:gap-32 text-3xl">
+        <ul className="flex flex-row gap-6 md:gap-32 text-2xl">
           <li>
-            <HoverLink text="Informacje" link="#info" />
+            <HoverLink text="Informacje" link="/informations" />
           </li>
           <li>
-            <HoverLink text="Galeria" link="#gallery" />
+            <HoverLink text="Galeria" link="/gallery" />
           </li>
         </ul>
 
@@ -21,12 +21,12 @@ const Navbar = () => {
           />
         </div>
 
-        <ul className="flex flex-row gap-6 md:gap-32 text-3xl">
+        <ul className="flex flex-row gap-6 md:gap-32 text-2xl">
           <li>
-            <HoverLink text="Cennik" link="#pricing" />
+            <HoverLink text="Cennik" link="/pricing" />
           </li>
           <li>
-            <HoverLink text="Kontakt" link="#contact" />
+            <HoverLink text="Kontakt" link="/contact" />
           </li>
         </ul>
       </div>
