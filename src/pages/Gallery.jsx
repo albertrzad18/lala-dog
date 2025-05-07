@@ -7,8 +7,33 @@ const GalleryPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="flex justify-center items-center flex-col min-h-screen pt-32">
-          <ImageCarousel />
+        <div className="flex justify-center items-center flex-col min-h-screen pt-36">
+          <div className="text-4xl pt-8 font-bold">Zdjęcia z kursu</div>
+          <ImageCarousel
+            images={[
+              "photo1.jpeg",
+              "photo2.jpeg",
+              "photo3.jpeg",
+              "photo4.jpeg",
+              "photo5.jpeg",
+              "photo6.jpeg",
+              "photo7.jpeg",
+              "photo8.jpeg",
+            ]}
+          />
+          <div className="text-4xl pt-8 font-bold">Nasi klienci przed i po</div>
+          <ImageCarousel
+            images={[
+              "photo9.jpeg",
+              "photo10.jpeg",
+              "photo11.jpeg",
+              "photo12.jpeg",
+              "photo13.jpeg",
+              "photo14.jpeg",
+              "photo15.jpeg",
+              "photo16.jpeg",
+            ]}
+          />
         </div>
       </FadeInOut>
     </>

@@ -28,7 +28,7 @@ const Navbar = () => {
               <HoverLink text="Galeria" link="/gallery" />
             </li>
             <li>
-              <HoverLink text="Regulamin" link="/statute" />
+              <HoverLink text="Zasady" link="/statute" />
             </li>
             <li>
               <HoverLink text="Kontakt" link="/contact" />

@@ -2,9 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-const images = ["dog1.avif", "dog2.webp", "dog3.jpg", "dog4.jpg", "dog5.jpg"];
-
-export default function ImageCarousel() {
+const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
@@ -24,56 +22,55 @@ export default function ImageCarousel() {
     currentIndex === images.length - 1 ? 0 : currentIndex + 1;
 
   return (
-    <>
-      <div className="text-2xl pt-8 pl-8 ">NASI ZADOWOLENI KLIENCI 😎</div>
-      <div className="w-full flex items-center justify-center gap-4 px-6">
-        <button
-          onClick={prevImage}
-          className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 z-20"
-        >
-          <ArrowLeft size={32} />
-        </button>
+    <div className="w-full flex items-center justify-center gap-4 px-6">
+      <button
+        onClick={prevImage}
+        className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 z-20"
+      >
+        <ArrowLeft size={32} />
+      </button>
 
-        <div className="relative flex items-center justify-center w-full max-w-[1400px] h-[600px] overflow-hidden">
-          <img
-            src={images[getPrevIndex()]}
-            alt="Previous"
-            className="absolute left-0 w-[30%] h-[80%] object-cover filter blur-sm opacity-50 rounded-lg transform scale-90"
-          />
+      <div className="relative flex items-center justify-center w-full max-w-[1400px] h-[600px] overflow-hidden">
+        <img
+          src={images[getPrevIndex()]}
+          alt="Previous"
+          className="absolute left-0 w-[30%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90"
+        />
 
-          <div className="relative z-10 w-[60%] h-[75%] rounded-xl overflow-hidden shadow-2xl flex items-center justify-center">
-            <AnimatePresence initial={false} custom={direction}>
-              <motion.img
-                key={currentIndex}
-                src={images[currentIndex]}
-                alt="Current"
-                custom={direction}
-                initial={{ opacity: 0, x: direction > 0 ? 150 : -150 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: direction > 0 ? -150 : 150 }}
-                transition={{
-                  x: { type: "spring", stiffness: 80, damping: 20 },
-                  opacity: { duration: 0.4 },
-                }}
-                className="absolute w-full h-full object-cover"
-              />
-            </AnimatePresence>
-          </div>
-
-          <img
-            src={images[getNextIndex()]}
-            alt="Next"
-            className="absolute right-0 w-[30%] h-[80%] object-cover filter blur-sm opacity-50 rounded-lg transform scale-90"
-          />
+        <div className="relative z-10 w-[60%] h-[80%] rounded-xl overflow-hidden shadow-2xl flex items-center justify-center bg-black/10">
+          <AnimatePresence initial={false} custom={direction}>
+            <motion.img
+              key={currentIndex}
+              src={images[currentIndex]}
+              alt="Current"
+              custom={direction}
+              initial={{ opacity: 0, x: direction > 0 ? 150 : -150 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: direction > 0 ? -150 : 150 }}
+              transition={{
+                x: { type: "spring", stiffness: 80, damping: 20 },
+                opacity: { duration: 0.4 },
+              }}
+              className="absolute w-full h-full object-cover object-center"
+            />
+          </AnimatePresence>
         </div>
 
-        <button
-          onClick={nextImage}
-          className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 z-20"
-        >
-          <ArrowRight size={32} />
-        </button>
+        <img
+          src={images[getNextIndex()]}
+          alt="Next"
+          className="absolute right-0 w-[30%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90"
+        />
       </div>
-    </>
+
+      <button
+        onClick={nextImage}
+        className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 z-20"
+      >
+        <ArrowRight size={32} />
+      </button>
+    </div>
   );
-}
+};
+
+export default ImageCarousel;
