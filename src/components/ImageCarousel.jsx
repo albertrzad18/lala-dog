@@ -37,7 +37,7 @@ const ImageCarousel = ({ images }) => {
           className="absolute left-0 w-[30%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90"
         />
 
-        <div className="relative z-10 w-[60%] h-[80%] rounded-xl overflow-hidden shadow-2xl flex items-center justify-center bg-black/10">
+        <div className="relative z-10 w-[40%] h-[100%] rounded-xl overflow-hidden shadow-2xl flex items-center justify-center bg-black/10 scale-90">
           <AnimatePresence initial={false} custom={direction}>
             <motion.img
               key={currentIndex}
