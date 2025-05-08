@@ -5,7 +5,7 @@ const Locator = () => {
     <div className="w-3/4 h-[500px] flex justify-center items-center p-4 ">
       <iframe
         title="Google Map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2463.394631398733!2d22.281879076709696!3d51.171548040882755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722ec051028e90b%3A0x3c851eb5e39f1713!2sLubelska%20108%2C%2024-200%20Be%C5%82%C5%BCyce!5e0!3m2!1spl!2spl!4v1714227750215!5m2!1spl!2spl"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2462.1363532190855!2d22.57835327671089!3d51.22557453396319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47225774bc2c347d%3A0xf66a0a3ee63520e2!2sLotnicza%2011%2C%2020-435%20Lublin!5e0!3m2!1spl!2spl!4v1715161515624!5m2!1spl!2spl"
         width="100%"
         height="100%"
         style={{ border: 0 }}

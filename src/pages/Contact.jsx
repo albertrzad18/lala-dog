@@ -8,7 +8,7 @@ const ContactPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-38 px-32 flex flex-col items-center justify-center gap-16">
+        <div className="pt-42 px-32 flex flex-row items-center justify-center gap-16">
           <div className="w-1/2 h-full mx-auto mt-8 bg-white rounded-xl shadow-lg p-8 space-y-6 border-2 border-green-500">
             <h2 className="text-2xl font-bold text-center text-green-600">
               Kontakt
