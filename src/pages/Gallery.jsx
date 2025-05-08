@@ -7,7 +7,7 @@ const GalleryPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="flex justify-center items-center flex-col min-h-screen pt-36">
+        <div className="flex justify-center items-center flex-col min-h-screen pt-16 md:pt-36">
           <div className="text-4xl pt-8 font-bold">Zdjęcia z kursu</div>
           <ImageCarousel
             images={[

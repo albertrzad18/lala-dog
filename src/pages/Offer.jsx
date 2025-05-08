@@ -18,7 +18,7 @@ const Offer = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-44 px-6 md:px-32 flex flex-row items-stretch justify-center gap-12 lg:gap-16">
+        <div className="pt-16 md:pt-44 px-6 md:px-32 flex flex-row items-stretch justify-center gap-12 lg:gap-16">
           <div
             className="w-full lg:w-1/2 bg-gray-100 rounded-xl shadow-lg p-8 space-y-3.5 border-4 border-green-500 text-gray-800 h-full flex flex-col items-center justify-center text-center
           "
