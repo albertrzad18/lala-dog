@@ -20,6 +20,7 @@ const GalleryPage = () => {
               "photo7.jpeg",
               "photo8.jpeg",
             ]}
+            width={"40%"}
           />
           <div className="text-4xl pt-8 font-bold">Nasi klienci przed i po</div>
           <ImageCarousel
@@ -33,6 +34,7 @@ const GalleryPage = () => {
               "photo15.jpeg",
               "photo16.jpeg",
             ]}
+            width={"40%"}
           />
         </div>
       </FadeInOut>

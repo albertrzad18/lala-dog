@@ -16,12 +16,12 @@ const ContactPage = () => {
 
             <div className="flex items-center justify-center space-x-4 text-xl">
               <MapPin className="text-green-500 w-6 h-6" />
-              <p className="text-gray-700">Lubelska 108, 24-200 Bełżyce</p>
+              <p className="text-gray-700">Lotnicza 11, 20-435 Lublin</p>
             </div>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
               <Phone className="text-green-500 w-6 h-6" />
-              <p className="text-gray-700">+48 123 456 789</p>
+              <p className="text-gray-700">+695 385 299</p>
             </div>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
