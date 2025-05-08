@@ -72,22 +72,16 @@ const Offer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center pt-32 px-6 md:px-32">
+        <div className="flex flex-col items-center justify-center pt-16 px-6 md:px-32">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-green-700">
             Cennik
           </h2>
-          <div className="pt-16 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16">
+          <div className="pt-6 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16">
             <img
-              src="priceList1.jpg"
-              alt="Price List 1"
-              className="w-full lg:w-1/2 rounded-xl shadow-lg border-4 border-green-500 cursor-pointer"
-              onClick={() => openLightbox("/priceList1.jpg")}
-            />
-            <img
-              src="priceList2.jpg"
-              alt="Price List 2"
-              className="w-full lg:w-1/2 rounded-xl shadow-lg border-4 border-green-500 cursor-pointer"
-              onClick={() => openLightbox("/priceList2.jpg")}
+              src="mergedPriceList.jpg"
+              alt="Price List"
+              className="w-full  rounded-xl shadow-lg border-4 border-green-500 cursor-pointer"
+              onClick={() => openLightbox("/mergedPriceList.jpg")}
             />
           </div>
         </div>

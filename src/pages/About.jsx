@@ -55,8 +55,23 @@ const AboutPage = () => {
               pupila, ale i o jego zdrowie, komfort i dobre samopoczucie. Na co
               dzień nie tylko pielęgnuję, ale też chętnie doradzam – jak dbać o
               sierść, jak poprawić komfort pupila, co warto zmienić, żeby
-              wszystkim żyło się lepiej. Z miłości do psiej i kociej urody
-              właśnie powstał ten salon – Lala Dog.
+              wszystkim żyło się lepiej.
+            </p>
+            <p>
+              Nie tylko psy rasowe wymagają i zasługują na profesjonalną
+              pielęgnację w salonie groomerskim — każdy pies, bez względu na
+              “rasę”, powinien czuć się zadbany i kochany, a że sama jestem
+              “psią mamą” dwóch kundelków to właśnie kundelki zajmują w moim
+              sercu szczególne miejsce.Lagera i Dorotkę możecie poznać
+              wirtualnie na ich własnej podstronie (tak, mają więcej fanów niż
+              ja!), a jeśli będziecie mieć szczęście, przywitają Was też
+              osobiście w salonie — w końcu czasem wpadają ze mną do pracy, żeby
+              pilnować porządku i czy po prostu się obijać i cieszyć psim,
+              beztroskim życiem.
+            </p>
+            <p>
+              Z miłości do psiej i kociej urody właśnie powstał ten salon – Lala
+              Dog.
             </p>
           </div>
         </div>
