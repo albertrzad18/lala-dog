@@ -19,7 +19,7 @@ const Navbar = () => {
 
           <div className="absolute top-2 left-1/2 transform -translate-x-1/2 hidden md:block">
             <img
-              src="dog.jpg"
+              src="logo.jpg"
               className="w-24 md:w-38 rounded-full border-8 border-gray-300"
               alt="Logo"
             />
