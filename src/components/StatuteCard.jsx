@@ -1,7 +1,7 @@
 const StatuteCard = () => {
   return (
     <>
-      <div className="w-full bg-purple-400 rounded-xl shadow-lg p-8 space-y-6 font-bold text-gray-700">
+      <div className="w-full bg-purple-400 rounded-xl shadow-xl p-8 space-y-6 font-bold text-gray-700">
         <h1 className="text-3xl md:text-3xl font-bold text-[#7e54f0] text-center">
           Regulamin
         </h1>
@@ -17,9 +17,9 @@ const StatuteCard = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 space-x-4 text-sm font-semibold ">
             <ol className="space-y-3">
-              <li className="bg-white p-4 rounded-lg shadow-md border-2 border-[#7e54f0] shadow-[#7e54f0]">
-                <span className="font-bold">1. </span>
-                <strong className="text-[#7e54f0]">Rezerwacja wizyty</strong> –
+              <li className="bg-purple-600 p-4 rounded-lg shadow-md border-2 border-[#7e54f0] shadow-[#7e54f0] text-white">
+                <span className="font-bold text-black">1. </span>
+                <strong className="text-black">Rezerwacja wizyty</strong> –
                 Wizyty przyjmowane są wyłącznie po wcześniejszym umówieniu się
                 telefonicznie lub na miejscu w salonie.
               </li>
