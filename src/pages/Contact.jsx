@@ -1,3 +1,4 @@
+import { image } from "motion/react-client";
 import FadeInOut from "../components/FadeInOut";
 import Locator from "../components/Locator";
 import Navbar from "../components/Navbar";
@@ -8,7 +9,10 @@ const ContactPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-44 px-32 flex flex-col items-center justify-center gap-16 font-mono font-semibold">
+        <div
+          className="pt-16 md:pt-44 px-32 flex flex-row items-center justify-center gap-16 font-mono font-semibold"
+          style={{ backgroundImage: "/dog4" }}
+        >
           <div className="w-1/2 h-full mx-auto mt-8 bg-white rounded-3xl shadow-lg p-8 space-y-6 border-4 border-black">
             <h2 className="text-2xl font-bold text-center text-[#7e54f0]">
               Kontakt

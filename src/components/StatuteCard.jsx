@@ -1,7 +1,7 @@
 const StatuteCard = () => {
   return (
     <>
-      <div className="w-full bg-white rounded-xl shadow-lg p-8 space-y-6 border-4 border-black font-bold text-gray-700">
+      <div className="w-full bg-purple-400 rounded-xl shadow-lg p-8 space-y-6 font-bold text-gray-700">
         <h1 className="text-3xl md:text-3xl font-bold text-[#7e54f0] text-center">
           Regulamin
         </h1>
@@ -150,6 +150,11 @@ const StatuteCard = () => {
                 dotyczące usługi należy zgłaszać w ciągu 24 godzin od jej
                 wykonania.
               </li>
+              <img
+                src="logo.jpg"
+                className="w-24 md:w-44 -left-3.5 rounded-full"
+                alt="Logo"
+              />
             </ol>
           </div>
         </div>

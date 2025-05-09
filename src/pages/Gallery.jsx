@@ -9,22 +9,6 @@ const GalleryPage = () => {
       <FadeInOut>
         <div className="flex justify-center items-center flex-col min-h-screen pt-16 md:pt-36 font-serif">
           <div className="text-4xl pt-8 font-extrabold text-[#7e54f0]">
-            Zdjęcia z kursu
-          </div>
-          <ImageCarousel
-            images={[
-              "photo1.jpeg",
-              "photo2.jpeg",
-              "photo3.jpeg",
-              "photo4.jpeg",
-              "photo5.jpeg",
-              "photo6.jpeg",
-              "photo7.jpeg",
-              "photo8.jpeg",
-            ]}
-            width={"40%"}
-          />
-          <div className="text-4xl pt-8 font-extrabold text-[#7e54f0]">
             Nasi klienci przed i po
           </div>
           <ImageCarousel
@@ -37,6 +21,22 @@ const GalleryPage = () => {
               "photo14.jpeg",
               "photo15.jpeg",
               "photo16.jpeg",
+            ]}
+            width={"40%"}
+          />
+          <div className="text-4xl pt-8 font-extrabold text-[#7e54f0]">
+            Zdjęcia z kursu
+          </div>
+          <ImageCarousel
+            images={[
+              "photo1.jpeg",
+              "photo2.jpeg",
+              "photo3.jpeg",
+              "photo4.jpeg",
+              "photo5.jpeg",
+              "photo6.jpeg",
+              "photo7.jpeg",
+              "photo8.jpeg",
             ]}
             width={"40%"}
           />

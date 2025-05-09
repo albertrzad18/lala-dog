@@ -20,7 +20,7 @@ const Offer = () => {
       <FadeInOut>
         <div className="pt-16 md:pt-44 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16 font-serif">
           <div
-            className="w-full lg:w-1/2 bg-gray-100 rounded-xl font-semibold p-8 space-y-4.5 border-4 border-black h-full flex flex-col items-center justify-center text-center shadow-xl shadow-[#7e54f0]
+            className="w-full lg:w-1/2 bg-purple-300 rounded-xl font-semibold p-8 space-y-4.5 h-full flex flex-col items-center justify-center text-center text-white shadow-xl shadow-[#7e54f0]
           "
           >
             <h2 className="text-2xl md:text-4xl font-bold text-[#7e54f0] mb-4">
