@@ -18,12 +18,12 @@ const Offer = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-44 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16">
+        <div className="pt-16 md:pt-44 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16 font-serif">
           <div
-            className="w-full lg:w-1/2 bg-gray-100 rounded-xl shadow-lg p-8 space-y-3.5 border-4 border-green-500 text-gray-800 h-full flex flex-col items-center justify-center text-center
+            className="w-full lg:w-1/2 bg-gray-100 rounded-xl font-semibold p-8 space-y-4.5 border-4 border-black h-full flex flex-col items-center justify-center text-center shadow-xl shadow-[#7e54f0]
           "
           >
-            <h2 className="text-2xl md:text-4xl font-bold text-green-700 mb-4">
+            <h2 className="text-2xl md:text-4xl font-bold text-[#7e54f0] mb-4">
               Dlaczego Lala Dog?
             </h2>
             <p>
@@ -52,12 +52,12 @@ const Offer = () => {
             </p>
           </div>
 
-          <div className="w-full lg:w-1/2 bg-gray-100 rounded-xl shadow-lg p-8 border-4 border-green-500 text-gray-800 h-full flex flex-col items-center justify-center text-center">
+          <div className="w-full lg:w-1/2 bg-gray-100 rounded-xl shadow-lg p-8 border-4 border-black text-gray-800 h-full flex flex-col items-center justify-center text-center shadow-xl shadow-[#7e54f0]">
             <div>
-              <h2 className="text-2xl md:text-4xl font-bold text-green-700 mb-4">
+              <h2 className="text-2xl md:text-4xl font-bold text-[#7e54f0] mb-4">
                 Oferta
               </h2>
-              <ul className="list-disc list-inside space-y-4 text-xl font-semibold">
+              <ul className="list-disc list-inside space-y-2 text-xl font-semibold">
                 <li>Kąpiele i pielęgnacja sierści</li>
                 <li>SPA dla psów</li>
                 <li>Strzyżenie psów</li>
@@ -72,15 +72,15 @@ const Offer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center pt-16 px-6 md:px-32">
-          <h2 className="text-3xl md:text-5xl font-bold text-center text-green-700">
+        <div className="flex flex-col items-center justify-center pt-16 px-6 md:px-32 ">
+          <h2 className="text-3xl md:text-5xl font-bold text-center text-[#7e54f0]">
             Cennik
           </h2>
-          <div className="pt-6 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16">
+          <div className="pt-6 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16 mb-8">
             <img
               src="mergedPriceList.jpg"
               alt="Price List"
-              className="w-full  rounded-xl shadow-lg border-4 border-green-500 cursor-pointer"
+              className="w-full  rounded-xl border-4 border-black cursor-pointer shadow-xl shadow-[#7e54f0]"
               onClick={() => openLightbox("/mergedPriceList.jpg")}
             />
           </div>

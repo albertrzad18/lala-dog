@@ -7,8 +7,10 @@ const GalleryPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="flex justify-center items-center flex-col min-h-screen pt-16 md:pt-36">
-          <div className="text-4xl pt-8 font-bold">Zdjęcia z kursu</div>
+        <div className="flex justify-center items-center flex-col min-h-screen pt-16 md:pt-36 font-serif">
+          <div className="text-4xl pt-8 font-extrabold text-[#7e54f0]">
+            Zdjęcia z kursu
+          </div>
           <ImageCarousel
             images={[
               "photo1.jpeg",
@@ -22,7 +24,9 @@ const GalleryPage = () => {
             ]}
             width={"40%"}
           />
-          <div className="text-4xl pt-8 font-bold">Nasi klienci przed i po</div>
+          <div className="text-4xl pt-8 font-extrabold text-[#7e54f0]">
+            Nasi klienci przed i po
+          </div>
           <ImageCarousel
             images={[
               "photo9.jpeg",

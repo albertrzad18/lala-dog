@@ -8,34 +8,34 @@ const ContactPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-44 px-32 flex flex-row items-center justify-center gap-16">
-          <div className="w-1/2 h-full mx-auto mt-8 bg-white rounded-xl shadow-lg p-8 space-y-6 border-2 border-green-500">
-            <h2 className="text-2xl font-bold text-center text-green-600">
+        <div className="pt-16 md:pt-44 px-32 flex flex-col items-center justify-center gap-16 font-mono font-semibold">
+          <div className="w-1/2 h-full mx-auto mt-8 bg-white rounded-3xl shadow-lg p-8 space-y-6 border-4 border-black">
+            <h2 className="text-2xl font-bold text-center text-[#7e54f0]">
               Kontakt
             </h2>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
-              <MapPin className="text-green-500 w-6 h-6" />
+              <MapPin className="text-[#7e54f0] w-6 h-6" />
               <p className="text-gray-700">Lotnicza 11, 20-435 Lublin</p>
             </div>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
-              <Phone className="text-green-500 w-6 h-6" />
+              <Phone className="text-[#7e54f0] w-6 h-6" />
               <p className="text-gray-700">+695 385 299</p>
             </div>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
-              <Mail className="text-green-500 w-6 h-6" />
+              <Mail className="text-[#7e54f0] w-6 h-6" />
               <p className="text-gray-700">lager@dorotka.pl</p>
             </div>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
-              <Facebook className="text-green-500 w-6 h-6" />
+              <Facebook className="text-[#7e54f0] w-6 h-6" />
               <a
                 href="https://facebook.com/twojafirma"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-700 hover:text-green-600 transition-colors"
+                className="text-gray-700 hover:text-[#7e54f0] transition-colors"
               >
                 Nasz Facebook
               </a>

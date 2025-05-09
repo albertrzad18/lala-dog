@@ -6,9 +6,15 @@ const AboutPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-44 px-6 md:px-32 flex flex-col items-center justify-center gap-16">
-          <div className="w-full md:w-2/3 lg:w-1/2 bg-gray-200 rounded-xl shadow-lg p-8 space-y-6 border-4 border-green-500  font-bold text-gray-700">
-            <h1 className="text-3xl md:text-4xl font-bold text-green-700 text-center">
+        <div
+          className="pt-16 md:pt-44 px-6 md:px-32 flex flex-col items-end justify-end gap-16 bg-contain  bg-repeat relative"
+          style={{
+            backgroundImage: "url('/dogShelter2.webp')",
+            backgroundSize: "50%",
+          }}
+        >
+          <div className="w-full md:w-2/3 lg:w-1/2 bg-white rounded-xl shadow-lg p-8 space-y-6 border-4 border-black font-bold font-serif">
+            <h1 className="text-3xl md:text-4xl font-bold text-[#7e54f0] text-center">
               pSIEMKA! Tu Ala – albo po prostu Lala
             </h1>
 
