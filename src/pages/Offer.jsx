@@ -24,14 +24,14 @@ const Offer = () => {
               <img
                 src="lookingDog1.jpg"
                 alt="Dog Left"
-                className="hidden md:block absolute -left-48 top-1/3 w-64 h-auto z-20 transform scale-200"
+                className="hidden md:block absolute -left-48 top-1/3 lg:top-64 w-64 h-auto z-20 transform scale-200"
               />
               <img
                 src="lookingDog2.jpg"
                 alt="Dog Right"
-                className="hidden md:block absolute -right-48 top-3/5 w-64 h-auto z-20 transform scale-200"
+                className="hidden md:block absolute -right-48 top-3/5 lg:top-196 lg:right-24 w-64 h-auto z-20 transform scale-200"
               />
-              <div className="px-6 md:px-32 flex flex-col md:flex-row items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16">
+              <div className="px-6 md:px-32 flex flex-col md:flex-row lg:flex-col items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16">
                 <div
                   className="w-full h-full bg-purple-300 rounded-xl font-semibold p-8 space-y-4.5  flex flex-col items-center justify-center text-center text-white
           "
