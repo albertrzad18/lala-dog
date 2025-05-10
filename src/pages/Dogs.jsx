@@ -7,8 +7,8 @@ const DogsPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-44 px-6 md:px-32 flex flex-col items-center justify-center gap-16 font-serif">
-          <div className="w-full md:w-2/3 lg:w-1/2 bg-gray-200 rounded-xl p-8 space-y-6 border-4 border-black font-bold text-black shadow-xl shadow-[#7e54f0]">
+        <div className="pt-16 md:pt-24 px-6 md:px-32 flex flex-col md:flex-row items-center justify-center gap-16 font-serif">
+          <div className="w-3/4 bg-purple-300 rounded-xl p-8 space-y-6  text-white shadow-xl shadow-[#7e54f0] text-normal">
             <h1 className="text-3xl md:text-4xl font-bold text-[#7e54f0] text-center">
               Lager i Dorotka
             </h1>
@@ -48,7 +48,6 @@ const DogsPage = () => {
               "dog4.jpeg",
               "dog5.jpeg",
             ]}
-            width={"40%"}
           />
         </div>
       </FadeInOut>

@@ -1,11 +1,31 @@
+import { useState } from "react";
 import HoverLink from "./HoverLink";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
-      <nav className="fixed top-0 w-full h-22 bg-[#7e54f0] z-50 shadow-md hidden md:block">
-        <div className="max-w-screen-xl mx-auto flex flex-wrap md:flex-nowrap items-center justify-between py-4 px-4 md:px-6 relative">
-          <ul className="flex flex-row gap-24 md:gap-8 text-sm md:text-xl whitespace-nowrap">
+      <nav className="fixed top-0 w-full h-15 bg-[#D3D324] z-50 shadow-md">
+        <div className="max-w-screen-xl mx-auto flex items-center justify-center md:justify-between py-2 px-4 md:px-6">
+          <button
+            className="md:hidden"
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle menu"
+          >
+            {isOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+
+          <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 hidden md:block">
+            <img
+              src="logo.jpg"
+              className="w-24 md:w-36 rounded-full border-8 border-[#D3D324]"
+              alt="Logo"
+            />
+          </div>
+
+          <ul className="hidden md:flex flex-row justify-center gap-8 text-xl whitespace-nowrap">
             <li>
               <HoverLink text="O mnie" link="/aboutMe" />
             </li>
@@ -17,15 +37,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div className="absolute top-2 left-1/2 transform -translate-x-1/2 hidden md:block">
-            <img
-              src="logo.jpg"
-              className="w-24 md:w-38 rounded-full border-8 border-[#7e54f0]"
-              alt="Logo"
-            />
-          </div>
-
-          <ul className="flex flex-row gap-24 md:gap-8 text-sm md:text-xl whitespace-nowrap">
+          <ul className="hidden md:flex flex-row gap-8 text-xl whitespace-nowrap">
             <li>
               <HoverLink text="Galeria" link="/gallery" />
             </li>
@@ -37,6 +49,17 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+
+        {isOpen && (
+          <div className="md:hidden bg-[#D3D324] px-4 pb-4 space-y-3 text-lg shadow-md flex flex-col items-center">
+            <HoverLink text="O mnie" link="/aboutMe" />
+            <HoverLink text="Oferta i cennik" link="/offer" />
+            <HoverLink text="Kontakt" link="/contact" />
+            <HoverLink text="Galeria" link="/gallery" />
+            <HoverLink text="Zasady" link="/statute" />
+            <HoverLink text="Lager i Dorotka" link="/dogs" />
+          </div>
+        )}
       </nav>
     </>
   );

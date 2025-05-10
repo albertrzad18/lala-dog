@@ -1,3 +1,4 @@
+import { image } from "motion/react-client";
 import FadeInOut from "../components/FadeInOut";
 import Locator from "../components/Locator";
 import Navbar from "../components/Navbar";
@@ -8,25 +9,25 @@ const ContactPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-44 px-32 flex flex-col items-center justify-center gap-16 font-mono font-semibold">
-          <div className="w-1/2 h-full mx-auto mt-8 bg-white rounded-3xl shadow-lg p-8 space-y-6 border-4 border-black">
+        <div className="pt-16 md:pt-44 px-32 flex flex-col md:flex-row items-center justify-center gap-16 font-mono font-semibold">
+          <div className="w-full h-full mx-auto bg-purple-300 rounded-3xl p-8 space-y-6 shadow-xl shadow-[#7e54f0] text-white">
             <h2 className="text-2xl font-bold text-center text-[#7e54f0]">
               Kontakt
             </h2>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
               <MapPin className="text-[#7e54f0] w-6 h-6" />
-              <p className="text-gray-700">Lotnicza 11, 20-435 Lublin</p>
+              <p>Lotnicza 11, 20-435 Lublin</p>
             </div>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
               <Phone className="text-[#7e54f0] w-6 h-6" />
-              <p className="text-gray-700">+695 385 299</p>
+              <p>+695 385 299</p>
             </div>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
               <Mail className="text-[#7e54f0] w-6 h-6" />
-              <p className="text-gray-700">lager@dorotka.pl</p>
+              <p>lager@dorotka.pl</p>
             </div>
 
             <div className="flex items-center justify-center space-x-4 text-xl">
@@ -35,7 +36,7 @@ const ContactPage = () => {
                 href="https://facebook.com/twojafirma"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-700 hover:text-[#7e54f0] transition-colors"
+                className="hover:text-[#7e54f0] transition-colors"
               >
                 Nasz Facebook
               </a>
