@@ -21,9 +21,19 @@ const Offer = () => {
         return (
           <>
             <FadeInOut>
-              <div className="px-6 md:px-32 flex flex-col md:flex-row items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16">
+              <img
+                src="lookingDog1.jpg"
+                alt="Dog Left"
+                className="hidden md:block absolute -left-48 top-1/3 lg:top-64 w-64 h-auto z-20 transform scale-200"
+              />
+              <img
+                src="lookingDog2.jpg"
+                alt="Dog Right"
+                className="hidden md:block absolute -right-48 top-3/5 lg:top-196 lg:right-24 w-64 h-auto z-20 transform scale-200"
+              />
+              <div className="px-6 md:px-32 flex flex-col md:flex-row lg:flex-col items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16">
                 <div
-                  className="w-full h-full bg-purple-300 rounded-xl font-semibold p-8 space-y-4.5  flex flex-col items-center justify-center text-center text-white shadow-xl shadow-[#7e54f0]
+                  className="w-full h-full bg-purple-300 rounded-xl font-semibold p-8 space-y-4.5  flex flex-col items-center justify-center text-center text-white
           "
                 >
                   <h2 className="text-2xl md:text-4xl font-bold text-[#7e54f0] mb-4">
@@ -57,7 +67,7 @@ const Offer = () => {
                   </p>
                 </div>
 
-                <div className="w-full lg:w-1/2 bg-purple-300 rounded-xl p-8 text-gray-800 h-full flex flex-col items-center justify-center text-center shadow-xl shadow-[#7e54f0]">
+                <div className="w-full lg:w-1/2 bg-purple-300 rounded-xl p-8 text-gray-800 h-full flex flex-col items-center justify-center text-center">
                   <div>
                     <h2 className="text-2xl md:text-4xl font-bold text-[#7e54f0] mb-4">
                       Oferta
@@ -86,10 +96,10 @@ const Offer = () => {
               <div className="flex flex-col items-center justify-center px-6 md:px-32 ">
                 <div className="pt-6 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16 mb-8">
                   <img
-                    src="mergedPriceList.jpg"
+                    src="priceListMerged.jpg"
                     alt="Price List"
-                    className="w-full  rounded-xl border-4 border-black cursor-pointer shadow-xl shadow-[#7e54f0]"
-                    onClick={() => openLightbox("/mergedPriceList.jpg")}
+                    className="w-full rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                    onClick={() => openLightbox("/priceListMerged.jpg")}
                   />
                 </div>
               </div>
@@ -126,7 +136,7 @@ const Offer = () => {
           <div className="flex gap-4 -mb-12">
             <button
               className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5  border-black mb-8 ${
-                activeTab === "statute"
+                activeTab === "offer"
                   ? "bg-purple-400 text-white"
                   : "bg-purple-200 text-white"
               }`}
@@ -139,7 +149,7 @@ const Offer = () => {
             </button>
             <button
               className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5  border-black mb-8 ${
-                activeTab === "tips"
+                activeTab === "priceList"
                   ? "bg-purple-400 text-white"
                   : "bg-purple-200 text-white"
               }`}

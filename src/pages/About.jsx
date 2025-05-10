@@ -7,7 +7,7 @@ const AboutPage = () => {
       <Navbar />
       <FadeInOut>
         <div className="pt-12 md:pt-36 flex flex-col items-center justify-end gap-24 relative text-white">
-          <div className="flex flex-row justify-center flex-wrap w-screen h-[340px] md:h-[350px]">
+          <div className="flex flex-row justify-center flex-wrap w-screen h-[400px] md:h-[350px]">
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 font-bold font-serif overflow-auto">
               <h1 className="text-3xl md:text-4xl font-bold text-[#7e54f0] text-center">
                 pSIEMKA! Tu Ala – albo po prostu Lala
@@ -28,9 +28,9 @@ const AboutPage = () => {
             />
           </div>
         </div>
-        <div className="flex flex-row justify-center items-center flex-wrap w-screen bg-purple-400 h-[440px] md:h-[410px]">
+        <div className="flex flex-row justify-center items-center flex-wrap w-screen bg-purple-400 h-[500px] md:h-[410px]">
           <img
-            src="/dogShelter2.webp"
+            src="/alaWithDog.jpeg"
             className="w-80 h-80 rounded-full p-8 hidden md:block"
             alt="Lala"
           />
@@ -51,7 +51,7 @@ const AboutPage = () => {
               przekonaniu, że to właśnie moja droga.
             </p>
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center flex-wrap w-screen bg-purple-800 h-[460px] md:h-[420px]">
+          <div className="flex flex-col md:flex-row justify-center items-center flex-wrap w-screen bg-purple-800 h-[550px] md:h-[420px]">
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 font-bold font-serif overflow-auto">
               <p className="text-base md:text-lg text-center text-white">
                 Później wróciłam do rodzinnego miasta i ukończyłam studia
@@ -76,14 +76,14 @@ const AboutPage = () => {
             </div>
             <img
               src="/dogShelter3.webp"
-              className="w-48 md:w-96 h-48 md:h-96 rounded-full p-8"
+              className="w-88 h-88 rounded-full p-8 hidden md:block"
               alt="Lala"
             />
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center w-screen bg-purple-950 h-[575px] md:h-[535px]">
+          <div className="flex flex-col md:flex-row justify-center items-center w-screen bg-purple-950 h-[740px] md:h-[535px]">
             <img
               src="/dogShelter4.jpg"
-              className="md:h-96 rounded-full p-8 hidden md:block"
+              className="w-88 h-88 rounded-full p-8 hidden md:block"
               alt="Lala"
             />
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 font-bold font-serif overflow-auto">
