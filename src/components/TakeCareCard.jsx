@@ -1,7 +1,7 @@
 const TakeCareCard = () => {
   return (
     <>
-      <div className="w-full bg-purple-400 rounded-xl shadow-xl p-8 space-y- font-bold text-white">
+      <div className="w-full bg-purple-400 rounded-xl shadow-xl p-8 space-y-2 text-white">
         <h1 className="text-3xl md:text-4xl font-bold text-[#7e54f0] text-center mb-4 ">
           O co zadbać przed wizytą?
         </h1>

@@ -126,7 +126,7 @@ const Offer = () => {
           <div className="flex gap-4 -mb-12">
             <button
               className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5  border-black mb-8 ${
-                activeTab === "statute"
+                activeTab === "offer"
                   ? "bg-purple-400 text-white"
                   : "bg-purple-200 text-white"
               }`}
@@ -139,7 +139,7 @@ const Offer = () => {
             </button>
             <button
               className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5  border-black mb-8 ${
-                activeTab === "tips"
+                activeTab === "priceList"
                   ? "bg-purple-400 text-white"
                   : "bg-purple-200 text-white"
               }`}

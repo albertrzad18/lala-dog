@@ -59,7 +59,7 @@ const Statute = () => {
         return (
           <>
             <FadeInOut>
-              <TakeCareCard />;
+              <TakeCareCard />
             </FadeInOut>
           </>
         );
@@ -67,7 +67,7 @@ const Statute = () => {
         return (
           <>
             <FadeInOut>
-              <FaqCard />;
+              <FaqCard />
             </FadeInOut>
           </>
         );
