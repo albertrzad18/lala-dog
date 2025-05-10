@@ -6,10 +6,10 @@ const AboutPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-36 flex flex-col items-end justify-end gap-24 relative text-white">
+        <div className="pt-16 md:pt-36 flex flex-col items-center justify-end gap-24 relative text-white">
           <div
             className="flex flex-row justify-center flex-wrap w-screen "
-            style={{ height: "370px" }}
+            style={{ height: "330px" }}
           >
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 font-bold font-serif overflow-auto">
               <h1 className="text-3xl md:text-4xl font-bold text-[#7e54f0] text-center">
@@ -26,18 +26,18 @@ const AboutPage = () => {
             </div>
             <img
               src="/dogShelter1.webp"
-              className="w-96 h-full rounded-full p-8"
+              className="w-72 h-72 rounded-full p-8"
               alt="Lala"
             />
           </div>
         </div>
         <div
-          className="flex flex-row justify-center flex-wrap w-screen bg-purple-400 "
-          style={{ height: "400px" }}
+          className="flex flex-row justify-center items-center flex-wrap w-screen bg-purple-400 "
+          style={{ height: "350px" }}
         >
           <img
             src="/dogShelter2.webp"
-            className="w-96 h-full rounded-full p-8"
+            className="w-80 h-80 rounded-full p-8"
             alt="Lala"
           />
           <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 font-bold font-serif overflow-auto">
@@ -58,8 +58,8 @@ const AboutPage = () => {
             </p>
           </div>
           <div
-            className="flex flex-row justify-center flex-wrap w-screen bg-purple-800"
-            style={{ height: "450px" }}
+            className="flex flex-row justify-center items-center flex-wrap w-screen bg-purple-800"
+            style={{ height: "395px" }}
           >
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 font-bold font-serif overflow-auto">
               <p className="text-base md:text-lg text-center text-white">
@@ -85,21 +85,21 @@ const AboutPage = () => {
             </div>
             <img
               src="/dogShelter3.webp"
-              className="w-96 h-full rounded-full p-8"
+              className="w-84 h-84 rounded-full p-8"
               alt="Lala"
             />
           </div>
           <div
-            className="flex flex-row justify-center flex-wrap w-screen bg-purple-950"
-            style={{ height: "540px" }}
+            className="flex flex-col md:flex-row justify-center items-center w-screen bg-purple-950"
+            style={{ height: "505px" }}
           >
             <img
               src="/dogShelter4.jpg"
-              className="w-96 h-full rounded-full p-8"
+              className="w-96 h-96 rounded-full p-8"
               alt="Lala"
             />
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 font-bold font-serif overflow-auto">
-              <p className="text-base md:text-lg text-center text-white">
+              <p className="text-base md:text-lg text-center text-white ">
                 Tytuł technika weterynarii i studia z analityki weterynaryjnej
                 dają mi solidne zaplecze – wiem, jak zadbać nie tylko o wygląd
                 pupila, ale i o jego zdrowie, komfort i dobre samopoczucie. Na
@@ -107,7 +107,7 @@ const AboutPage = () => {
                 dbać o sierść, jak poprawić komfort pupila, co warto zmienić,
                 żeby wszystkim żyło się lepiej.
               </p>
-              <p className="text-base md:text-lg text-center text-[#cdabff]">
+              <p className="text-base md:text-lg text-center text-white">
                 Nie tylko psy rasowe wymagają i zasługują na profesjonalną
                 pielęgnację w salonie groomerskim — każdy pies, bez względu na
                 “rasę”, powinien czuć się zadbany i kochany, a że sama jestem
