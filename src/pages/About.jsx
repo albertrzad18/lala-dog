@@ -6,7 +6,7 @@ const AboutPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-36 flex flex-col items-center justify-end gap-24 relative text-white">
+        <div className="pt-12 md:pt-36 flex flex-col items-center justify-end gap-24 relative text-white">
           <div className="flex flex-row justify-center flex-wrap w-screen h-[340px] md:h-[350px]">
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 font-bold font-serif overflow-auto">
               <h1 className="text-3xl md:text-4xl font-bold text-[#7e54f0] text-center">

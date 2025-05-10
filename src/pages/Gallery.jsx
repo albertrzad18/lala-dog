@@ -8,7 +8,7 @@ const GalleryPage = () => {
       <Navbar />
       <FadeInOut>
         <div className="flex justify-center items-center flex-col min-h-screen pt-16 md:pt-36 font-serif">
-          <div className="text-4xl pt-8 font-extrabold text-[#7e54f0]">
+          <div className="text-4xl pt-2 font-extrabold text-[#7e54f0]">
             Nasi klienci przed i po
           </div>
           <ImageCarousel

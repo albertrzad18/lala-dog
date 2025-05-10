@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-const ImageCarousel = ({ images }) => {
+const ImageCarousel = ({ images, width }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
@@ -26,7 +26,7 @@ const ImageCarousel = ({ images }) => {
       <div className="w-full flex items-center justify-center gap-4 px-6">
         <button
           onClick={prevImage}
-          className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 z-20"
+          className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
         >
           <ArrowLeft size={32} />
         </button>
@@ -35,11 +35,11 @@ const ImageCarousel = ({ images }) => {
           <img
             src={images[getPrevIndex()]}
             alt="Previous"
-            className="absolute left-0 w-[30%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90"
+            className="absolute left-0 w-[35%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90 hidden md:block"
           />
 
           <div
-            className={`relative z-10 w-[40%] h-[100%] rounded-xl overflow-hidden shadow-2xl flex items-center justify-center bg-black/10 border-4 border-black scale-90`}
+            className={`relative z-10 w-full md:w-[${width}] h-[100%] rounded-xl overflow-hidden flex items-center justify-center bg-black/10  shadow-xl shadow-[#7e54f0] scale-90`}
           >
             <AnimatePresence initial={false} custom={direction}>
               <motion.img
@@ -62,15 +62,15 @@ const ImageCarousel = ({ images }) => {
           <img
             src={images[getNextIndex()]}
             alt="Next"
-            className="absolute right-0 w-[30%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90"
+            className="absolute right-0 w-[35%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90 hidden md:block"
           />
         </div>
 
         <button
           onClick={nextImage}
-          className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 z-20"
+          className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
         >
-          <ArrowRight size={32} />
+          <ArrowRight size={32} className="bg-c" />
         </button>
       </div>
     </>
