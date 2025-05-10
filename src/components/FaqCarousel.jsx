@@ -17,21 +17,16 @@ const QuestionCarousel = ({ questions }) => {
     setCurrentIndex((prev) => (prev === questions.length - 1 ? 0 : prev + 1));
   };
 
-  const getPrevIndex = () =>
-    currentIndex === 0 ? questions.length - 1 : currentIndex - 1;
-  const getNextIndex = () =>
-    currentIndex === questions.length - 1 ? 0 : currentIndex + 1;
-
   return (
-    <div className="w-full flex items-center justify-center gap-4 px-6">
+    <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 px-6">
       <button
         onClick={prevQuestion}
-        className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 z-20"
+        className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
       >
         <ArrowLeft size={32} />
       </button>
 
-      <div className="relative flex items-center justify-center w-full max-w-[1000px] h-[400px] overflow-hidden">
+      <div className="relative flex items-center justify-center w-full h-[400px] overflow-hidden">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             key={currentIndex}
@@ -55,7 +50,7 @@ const QuestionCarousel = ({ questions }) => {
 
       <button
         onClick={nextQuestion}
-        className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 z-20"
+        className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
       >
         <ArrowRight size={32} />
       </button>
