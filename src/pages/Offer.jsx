@@ -52,12 +52,12 @@ const Offer = () => {
             </p>
           </div>
 
-          <div className="w-full lg:w-1/2 bg-gray-100 rounded-xl shadow-lg p-8 border-4 border-black text-gray-800 h-full flex flex-col items-center justify-center text-center shadow-xl shadow-[#7e54f0]">
+          <div className="w-full lg:w-1/2 bg-purple-300 rounded-xl p-8 text-gray-800 h-full flex flex-col items-center justify-center text-center shadow-xl shadow-[#7e54f0]">
             <div>
               <h2 className="text-2xl md:text-4xl font-bold text-[#7e54f0] mb-4">
                 Oferta
               </h2>
-              <ul className="list-disc list-inside space-y-2 text-xl font-semibold">
+              <ul className="list-disc list-inside space-y-2 text-xl text-white font-semibold">
                 <li>Kąpiele i pielęgnacja sierści</li>
                 <li>SPA dla psów</li>
                 <li>Strzyżenie psów</li>
