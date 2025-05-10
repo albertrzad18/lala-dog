@@ -9,6 +9,7 @@ const ImageCarousel = ({ images, width }) => {
   const prevImage = () => {
     setDirection(-1);
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+    console.log(`${width}`);
   };
 
   const nextImage = () => {
