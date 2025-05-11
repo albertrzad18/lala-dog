@@ -10,12 +10,12 @@ const ContactPage = () => {
       <Navbar />
       <FadeInOut>
         <img
-          src="dogWithPhone.jpg"
+          src="dogs/dogWithPhone.jpg"
           alt="Dog Left"
           className="hidden md:block absolute left-84 -top-18 w-64 h-auto transform scale-200"
         />{" "}
-        <div className="pt-16 md:pt-44 px-32 flex flex-col md:flex-row items-center justify-center gap-16 font-mono font-semibold">
-          <div className="w-full h-full mx-auto bg-purple-300 rounded-3xl p-8 space-y-6 shadow-xl shadow-[#7e54f0] text-white z-20">
+        <div className="pt-20 md:pt-44 px-32 flex flex-col md:flex-row items-center justify-center gap-16 font-mono font-semibold">
+          <div className="md:w-full h-full  bg-purple-300 rounded-3xl p-8 space-y-6 shadow-xl shadow-[#7e54f0] text-white z-20">
             <h2 className="text-2xl font-bold text-center text-[#7e54f0]">
               Kontakt
             </h2>

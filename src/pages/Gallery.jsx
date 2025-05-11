@@ -13,14 +13,14 @@ const GalleryPage = () => {
           </div>
           <ImageCarousel
             images={[
-              "photo9.jpeg",
-              "photo10.jpeg",
-              "photo11.jpeg",
-              "photo12.jpeg",
-              "photo13.jpeg",
-              "photo14.jpeg",
-              "photo15.jpeg",
-              "photo16.jpeg",
+              "gallery/photo9.jpeg",
+              "gallery/photo10.jpeg",
+              "gallery/photo11.jpeg",
+              "gallery/photo12.jpeg",
+              "gallery/photo13.jpeg",
+              "gallery/photo14.jpeg",
+              "gallery/photo15.jpeg",
+              "gallery/photo16.jpeg",
             ]}
             width={"40%"}
           />
@@ -29,14 +29,14 @@ const GalleryPage = () => {
           </div>
           <ImageCarousel
             images={[
-              "photo1.jpeg",
-              "photo2.jpeg",
-              "photo3.jpeg",
-              "photo4.jpeg",
-              "photo5.jpeg",
-              "photo6.jpeg",
-              "photo7.jpeg",
-              "photo8.jpeg",
+              "gallery/photo1.jpeg",
+              "gallery/photo2.jpeg",
+              "gallery/photo3.jpeg",
+              "gallery/photo4.jpeg",
+              "gallery/photo5.jpeg",
+              "gallery/photo6.jpeg",
+              "gallery/photo7.jpeg",
+              "gallery/photo8.jpeg",
             ]}
             width={"40%"}
           />

@@ -2,14 +2,13 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-const ImageCarousel = ({ images, width }) => {
+const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
   const prevImage = () => {
     setDirection(-1);
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
-    console.log(`${width}`);
   };
 
   const nextImage = () => {
@@ -40,7 +39,7 @@ const ImageCarousel = ({ images, width }) => {
           />
 
           <div
-            className={`relative z-10 w-full md:w-[${width}] h-[100%] rounded-xl overflow-hidden flex items-center justify-center bg-black/10  shadow-xl shadow-[#7e54f0] scale-90`}
+            className={`relative z-10 w-full md:w-[50%] h-[100%] rounded-xl overflow-hidden flex items-center justify-center bg-black/10  shadow-xl shadow-[#7e54f0] scale-90`}
           >
             <AnimatePresence initial={false} custom={direction}>
               <motion.img

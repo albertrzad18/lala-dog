@@ -22,12 +22,12 @@ const Offer = () => {
           <>
             <FadeInOut>
               <img
-                src="lookingDog1.jpg"
+                src="dogs/lookingDog1.jpg"
                 alt="Dog Left"
                 className="hidden md:block absolute -left-48 top-1/3 lg:top-64 w-64 h-auto z-20 transform scale-200"
               />
               <img
-                src="lookingDog2.jpg"
+                src="dogs/lookingDog2.jpg"
                 alt="Dog Right"
                 className="hidden md:block absolute -right-48 top-3/5 lg:top-196 lg:right-24 w-64 h-auto z-20 transform scale-200"
               />
@@ -93,13 +93,13 @@ const Offer = () => {
         return (
           <>
             <FadeInOut>
-              <div className="flex flex-col items-center justify-center px-6 md:px-32 ">
-                <div className="pt-6 px-6 md:px-32 flex flex-row items-center justify-center gap-12 lg:gap-16 mb-8">
+              <div className="mt-24 hidden md:flex flex-col items-center justify-center px-6 md:px-32">
+                <div className="pl-128 flex flex-row items-center justify-center mb-8">
                   <img
-                    src="priceListMerged.jpg"
+                    src="priceList/cennik1.jpg"
                     alt="Price List"
-                    className="w-full rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
-                    onClick={() => openLightbox("/priceListMerged.jpg")}
+                    className="mt-8 max-w-xl rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0] scale-[3.2] xl:scale-[1.2] "
+                    onClick={() => openLightbox("priceList/cennik1.jpg")}
                   />
                 </div>
               </div>
@@ -123,6 +123,102 @@ const Offer = () => {
                 </motion.div>
               )}
             </FadeInOut>
+            <FadeInOut>
+              <div className="mt-24 hidden md:flex  flex-col items-center justify-center">
+                <div className="flex flex-row items-center justify-center mb-8">
+                  <img
+                    src="priceList/cennik2.jpg"
+                    alt="Price List"
+                    className="mt-8 mr-160 max-w-xl rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0] scale-[3.2] xl:scale-[1.2]"
+                    onClick={() => openLightbox("priceList/cennik2.jpg")}
+                  />
+                </div>
+              </div>
+              {lightboxImg && (
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.15 }}
+                >
+                  <div
+                    className="fixed inset-0 backdrop-blur-md bg-black/40 flex items-center justify-center z-50"
+                    onClick={closeLightbox}
+                  >
+                    <img
+                      src={lightboxImg}
+                      alt="Large preview"
+                      className="max-w-full max-h-full rounded-lg shadow-2xl"
+                    />
+                  </div>
+                </motion.div>
+              )}
+            </FadeInOut>
+
+            <div className="flex flex-col md:hidden -mt-8">
+              <FadeInOut>
+                <div className="flex flex-col items-center justify-center">
+                  <div className="flex flex-row items-center justify-center mb-8">
+                    <img
+                      src="priceList/cennik1.jpg"
+                      alt="Price List"
+                      className="max-w-l rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                      onClick={() => openLightbox("priceList/cennik1.jpg")}
+                    />
+                  </div>
+                </div>
+                {lightboxImg && (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.15 }}
+                  >
+                    <div
+                      className="fixed inset-0 backdrop-blur-md bg-black/40 flex items-center justify-center z-50"
+                      onClick={closeLightbox}
+                    >
+                      <img
+                        src={lightboxImg}
+                        alt="Large preview"
+                        className="max-w-full max-h-full rounded-lg shadow-2xl"
+                      />
+                    </div>
+                  </motion.div>
+                )}
+              </FadeInOut>
+              <FadeInOut>
+                <div className="flex flex-col items-center justify-center">
+                  <div className="flex flex-row items-center justify-center mb-8">
+                    <img
+                      src="priceList/cennik2.jpg"
+                      alt="Price List"
+                      className="max-w-l rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                      onClick={() => openLightbox("priceList/cennik2.jpg")}
+                    />
+                  </div>
+                </div>
+                {lightboxImg && (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.15 }}
+                  >
+                    <div
+                      className="fixed inset-0 backdrop-blur-md bg-black/40 flex items-center justify-center z-50"
+                      onClick={closeLightbox}
+                    >
+                      <img
+                        src={lightboxImg}
+                        alt="Large preview"
+                        className="max-w-full max-h-full rounded-lg shadow-2xl"
+                      />
+                    </div>
+                  </motion.div>
+                )}
+              </FadeInOut>
+            </div>
           </>
         );
     }
@@ -162,7 +258,9 @@ const Offer = () => {
             </button>
           </div>
 
-          <div className="w-full flex justify-center">{renderContent()}</div>
+          <div className="w-full flex justify-center flex-colmd:flex-row">
+            {renderContent()}
+          </div>
         </div>
       </FadeInOut>
     </>
