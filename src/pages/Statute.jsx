@@ -185,7 +185,7 @@ const Statute = () => {
               onClick={() => setActiveTab("statute")}
             >
               <span className="w-56 h-48 rounded bg-[#d6c9fe] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-              <span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
+              <span className="relative w-full text-left text-black font-medium rowdies-bold transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
                 Regulamin
               </span>
             </button>
@@ -198,7 +198,7 @@ const Statute = () => {
               onClick={() => setActiveTab("tips")}
             >
               <span className="w-56 h-48 rounded bg-[#d6c9fe] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-              <span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
+              <span className="relative w-full text-left text-black font-medium rowdies-bold transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
                 Wskazówki
               </span>
             </button>
@@ -211,7 +211,7 @@ const Statute = () => {
               onClick={() => setActiveTab("faq")}
             >
               <span className="w-56 h-48 rounded bg-[#d6c9fe] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-              <span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
+              <span className="relative w-full text-left text-black font-medium rowdies-bold transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
                 FAQ
               </span>
             </button>

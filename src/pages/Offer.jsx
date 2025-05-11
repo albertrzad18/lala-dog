@@ -36,16 +36,16 @@ const Offer = () => {
                   className="w-full h-full bg-purple-300 rounded-xl font-semibold p-8 space-y-4.5  flex flex-col items-center justify-center text-center text-white
           "
                 >
-                  <h2 className="text-2xl md:text-4xl font-bold text-[#7e54f0] mb-4">
+                  <h2 className="text-2xl md:text-4xl rowdies-bold text-[#7e54f0] mb-4">
                     Dlaczego Lala Dog?
                   </h2>
-                  <p>
+                  <p className="text-white rowdies-regular">
                     W Lala Dog najważniejsze jest dla mnie to, żeby Twój pupil
                     czuł się bezpiecznie i spokojnie. Każdego psiaka traktuję
                     indywidualnie, bez pośpiechu – pracuję w jego tempie,
                     poświęcając tyle czasu, ile potrzeba.
                   </p>
-                  <p>
+                  <p className="text-white rowdies-regular">
                     Dbam o to, by wizyta przebiegła w możliwie najmniej
                     stresujący sposób. Pomaga w tym nie tylko przyjazna
                     atmosfera i cierpliwość, ale też profesjonalny sprzęt –
@@ -53,13 +53,13 @@ const Offer = () => {
                     skrócić czas zabiegów do minimum, nie tracąc przy tym na
                     jakości.
                   </p>
-                  <p>
+                  <p className="text-white rowdies-regular">
                     Używam wyłącznie certyfikowanych kosmetyków groomerskich,
                     dostosowanych do potrzeb każdego psa – uwzględniam rodzaj
                     sierści, stan skóry oraz indywidualne wymagania
                     pielęgnacyjne.
                   </p>
-                  <p>
+                  <p className="text-white rowdies-regular">
                     Korzystam z kosmetyków posiadających certyfikat{" "}
                     <strong>Safe Pet Cosmetics®</strong>
                     (Certyfikat nr 18001), co daje pewność, że są one
@@ -69,19 +69,35 @@ const Offer = () => {
 
                 <div className="w-full lg:w-1/2 bg-purple-300 rounded-xl p-8 text-gray-800 h-full flex flex-col items-center justify-center text-center">
                   <div>
-                    <h2 className="text-2xl md:text-4xl font-bold text-[#7e54f0] mb-4">
+                    <h2 className="text-2xl md:text-4xl rowdies-bold text-[#7e54f0] mb-4">
                       Oferta
                     </h2>
-                    <ul className="list-disc list-inside space-y-2 text-xl text-white font-semibold">
-                      <li>Kąpiele i pielęgnacja sierści</li>
-                      <li>SPA dla psów</li>
-                      <li>Strzyżenie psów</li>
-                      <li>Trymowanie</li>
-                      <li>Wizyta szczeniaczkowa</li>
-                      <li>Rozczesywanie skołtunionej sierści</li>
-                      <li>Czyszczenie oczu i uszu</li>
-                      <li>Obcinanie pazurków</li>
-                      <li>Usługa express</li>
+                    <ul className="list-disc list-inside space-y-2 text-xl">
+                      <li className="rowdies-regular text-white">
+                        Kąpiele i pielęgnacja sierści
+                      </li>
+                      <li className="rowdies-regular text-white">
+                        SPA dla psów
+                      </li>
+                      <li className="rowdies-regular text-white">
+                        Strzyżenie psów
+                      </li>
+                      <li className="rowdies-regular text-white">Trymowanie</li>
+                      <li className="rowdies-regular text-white">
+                        Wizyta szczeniaczkowa
+                      </li>
+                      <li className="rowdies-regular text-white">
+                        Rozczesywanie skołtunionej sierści
+                      </li>
+                      <li className="rowdies-regular text-white">
+                        Czyszczenie oczu i uszu
+                      </li>
+                      <li className="rowdies-regular text-white">
+                        Obcinanie pazurków
+                      </li>
+                      <li className="rowdies-regular text-white">
+                        Usługa express
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -155,7 +171,7 @@ const Offer = () => {
               )}
             </FadeInOut>
 
-            <div className="flex flex-col md:hidden -mt-8">
+            <div className="flex flex-col md:hidden -mt-1">
               <FadeInOut>
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center mb-8">
@@ -231,7 +247,7 @@ const Offer = () => {
         <div className="pt-16 md:pt-38 px-6 md:px-16 flex flex-col items-center font-mono gap-8">
           <div className="flex gap-4 -mb-12">
             <button
-              className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5  border-black mb-8 ${
+              className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5 mb-8 ${
                 activeTab === "offer"
                   ? "bg-purple-400 text-white"
                   : "bg-purple-200 text-white"
@@ -239,12 +255,12 @@ const Offer = () => {
               onClick={() => setActiveTab("offer")}
             >
               <span className="w-56 h-48 rounded bg-[#d6c9fe] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-              <span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
+              <span className="relative w-full text-left text-black font-medium rowdies-bold transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
                 Oferta
               </span>
             </button>
             <button
-              className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5  border-black mb-8 ${
+              className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5 mb-8 ${
                 activeTab === "priceList"
                   ? "bg-purple-400 text-white"
                   : "bg-purple-200 text-white"
@@ -252,7 +268,7 @@ const Offer = () => {
               onClick={() => setActiveTab("priceList")}
             >
               <span className="w-56 h-48 rounded bg-[#d6c9fe] absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-              <span className="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
+              <span className="relative w-full text-left text-black font-medium rowdies-bold transition-colors duration-300 ease-in-out group-hover:text-[#6342bd] p-2">
                 Cennik
               </span>
             </button>

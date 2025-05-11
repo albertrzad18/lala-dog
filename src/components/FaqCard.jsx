@@ -8,7 +8,7 @@ const FaqCard = () => {
     },
     {
       question: "Co zawiera kompleksowa pielęgnacja?",
-      answer: `Kompleksowa pielęgnacja obejmuje: higienę pazurków i uszek, dwuetapową kąpiel (pierwszą oczyszczającą, drugą dobraną do rodzaju sierści), dokładne wyczesanie, suszenie oraz modelowanie sierści, strzyżenie oraz na koniec zapach dobrany do charakterku psa lub kota.`,
+      answer: `Kompleksowa pielęgnacja to higiena pazurków i uszu, dwuetapowa kąpiel (oczyszczająca i dopasowana do sierści), wyczesanie, suszenie, modelowanie, strzyżenie i zapach dobrany do charakteru pupila.`,
     },
     {
       question: "Czy mogę zostać z psem podczas zabiegu?",
@@ -34,8 +34,8 @@ const FaqCard = () => {
 
   return (
     <>
-      <div className="w-full bg-purple-400 rounded-xl shadow-xl p-8 space-y-6 font-bold -mt-14">
-        <h1 className="text-3xl md:text-3xl font-bold text-[#7e54f0] text-center">
+      <div className="w-full bg-purple-400 rounded-xl shadow-xl p-8 space-y-6 font-bold -mt-10">
+        <h1 className="text-3xl md:text-3xl rowdies-bold text-[#7e54f0] text-center">
           Najczęstsze pytania i odpowiedzi
         </h1>
         <QuestionCarousel questions={questions} />
