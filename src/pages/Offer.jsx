@@ -29,7 +29,7 @@ const Offer = () => {
               <img
                 src="dogs/lookingDog2.jpg"
                 alt="Dog Right"
-                className="hidden md:block absolute -right-48 top-3/5 lg:top-196 lg:right-24 w-64 h-auto z-20 transform scale-200"
+                className="hidden md:block absolute -right-48 top-3/5 lg:top-180 lg:right-12 w-64 h-auto transform scale-200"
               />
               <div className="px-6 md:px-32 flex flex-col md:flex-row lg:flex-col items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16">
                 <div
@@ -67,9 +67,9 @@ const Offer = () => {
                   </p>
                 </div>
 
-                <div className="w-full lg:w-1/2 bg-purple-300 rounded-xl p-8 text-gray-800 h-full flex flex-col items-center justify-center text-center">
+                <div className="w-full md:w-1/2 lg:w-3/4 bg-purple-300 rounded-xl p-8 text-gray-800 h-full flex flex-col items-center justify-center text-center z-20">
                   <div>
-                    <h2 className="text-2xl md:text-4xl rowdies-bold text-[#7e54f0] mb-4">
+                    <h2 className="text-2xl md:text-4xl rowdies-bold text-[#7e54f0] mb-4 ">
                       Oferta
                     </h2>
                     <ul className="list-disc list-inside space-y-2 text-xl">
