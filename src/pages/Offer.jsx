@@ -29,7 +29,7 @@ const Offer = () => {
               <img
                 src="dogs/lookingDog2.jpg"
                 alt="Dog Right"
-                className="hidden md:block absolute -right-48 top-3/5 lg:top-180 lg:right-12 w-64 h-auto transform scale-200"
+                className="hidden md:block absolute top-3/5 lg:top-180 md:right-12 w-64 h-auto transform scale-200"
               />
               <div className="px-6 md:px-32 flex flex-col md:flex-row lg:flex-col items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16">
                 <div
