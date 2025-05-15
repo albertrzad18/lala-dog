@@ -24,12 +24,12 @@ const Offer = () => {
               <img
                 src="dogs/lookingDog1.jpg"
                 alt="Dog Left"
-                className="hidden md:block absolute -left-48 top-1/3 lg:top-64 w-64 h-auto z-20 transform scale-200"
+                className="hidden md:block absolute -left-48 top-1/3 lg:top-86 w-64 h-auto z-20 transform scale-200"
               />
               <img
                 src="dogs/lookingDog2.jpg"
                 alt="Dog Right"
-                className="hidden md:block absolute top-3/5 lg:top-180 md:right-12 w-64 h-auto transform scale-200"
+                className="hidden md:block absolute top-3/5 lg:top-210 md:right-12 w-64 h-auto transform scale-200"
               />
               <div className="px-6 md:px-32 flex flex-col md:flex-row lg:flex-col items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16">
                 <div
@@ -244,7 +244,7 @@ const Offer = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-16 md:pt-38 px-6 md:px-16 flex flex-col items-center font-mono gap-8">
+        <div className="pt-16 md:pt-64 px-6 md:px-16 flex flex-col items-center font-mono gap-8">
           <div className="flex gap-4 -mb-12">
             <button
               className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5 mb-8 ${

@@ -174,7 +174,7 @@ const Statute = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="pt-20 md:pt-38 px-6 md:px-16 flex flex-col items-center font-mono gap-8">
+        <div className="pt-20 md:pt-60 px-6 md:px-16 flex flex-col items-center font-mono gap-8">
           <div className="flex gap-4">
             <button
               className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5  border-black mb-8 ${

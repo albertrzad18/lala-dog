@@ -19,8 +19,8 @@ const Navbar = () => {
 
           <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 hidden md:block">
             <img
-              src="logo.jpg"
-              className="w-24 md:w-36 rounded-full border-8 border-white"
+              src="logoCircle.png"
+              className="w-24 md:w-56 rounded-full border-8 border-white"
               alt="Logo"
             />
           </div>
