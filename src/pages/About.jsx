@@ -7,7 +7,7 @@ const AboutPage = () => {
       <Navbar />
       <FadeInOut>
         <div className="pt-12 md:pt-36 flex flex-col items-center justify-end gap-24 relative text-white ">
-          <div className="flex flex-row justify-center flex-wrap w-screen h-[550px] md:h-[350px]">
+          <div className="flex flex-row justify-center flex-wrap w-screen h-[550px] md:h-[370px]">
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 overflow-auto">
               <h1 className="text-3xl md:text-4xl rowdies-bold text-[#7e54f0] text-center">
                 pSIEMKA! Tu Ala – albo po prostu Lala
@@ -22,20 +22,20 @@ const AboutPage = () => {
               </p>
             </div>
             <img
-              src="dogs/dogShelter1.webp"
-              className="w-72 h-72 rounded-full p-8 hidden md:block"
+              src="about/circle1.png"
+              className="w-88 h-88 rounded-full hidden md:block shadow-xl shadow-[#7e54f0]"
               alt="Lala"
             />
           </div>
         </div>
-        <div className="flex flex-row justify-center items-center flex-wrap w-screen bg-purple-400 h-[450px] md:h-[290px]">
+        <div className="flex flex-row justify-center items-center flex-wrap w-screen bg-purple-400 h-[450px] md:h-[360px]">
           <img
-            src="/alaWithDog.jpeg"
-            className="w-72 h-72 rounded-full p-8 hidden md:block"
+            src="about/circle2.jpeg"
+            className="w-80 h-80 rounded-full hidden md:block shadow-xl shadow-[#7e54f0]"
             alt="Lala"
           />
           <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 overflow-auto">
-            <p className="pt-12 text-center text-white rowdies-regular text-xl">
+            <p className="pt-20 text-center text-white rowdies-regular text-xl">
               Jako nastolatka postanowiłam pójść za głosem serca — wyprowadziłam
               się z rodzinnego miasta, by zdobywać wiedzę i doświadczenie.
               Skończyłam technikum weterynaryjne w Trzcianie koło Rzeszowa, a
@@ -67,15 +67,15 @@ const AboutPage = () => {
               </p>
             </div>
             <img
-              src="dogs/dogShelter3.webp"
-              className="w-88 h-88 rounded-full p-8 hidden md:block"
+              src="about/circle3.png"
+              className="w-80 h-80 rounded-full hidden md:block shadow-xl shadow-[#7e54f0]"
               alt="Lala"
             />
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center w-screen bg-purple-950 h-[1080px] md:h-[535px]">
             <img
-              src="dogs/dogShelter4.jpg"
-              className="w-88 h-88 rounded-full p-8 hidden md:block"
+              src="about/circle4.jpeg"
+              className="w-80 h-80 rounded-full hidden md:block shadow-xl shadow-[#7e54f0]"
               alt="Lala"
             />
             <div className="w-full md:w-2/3 lg:w-1/2 h-full rounded-xl p-8 space-y-6 overflow-auto">

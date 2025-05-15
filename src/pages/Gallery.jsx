@@ -13,14 +13,13 @@ const GalleryPage = () => {
           </div>
           <ImageCarousel
             images={[
-              "gallery/photo9.jpeg",
-              "gallery/photo10.jpeg",
-              "gallery/photo11.jpeg",
-              "gallery/photo12.jpeg",
-              "gallery/photo13.jpeg",
-              "gallery/photo14.jpeg",
-              "gallery/photo15.jpeg",
-              "gallery/photo16.jpeg",
+              "gallery/beforeAndAfter/1.jpg",
+              "gallery/beforeAndAfter/2.jpg",
+              "gallery/beforeAndAfter/3.jpg",
+              "gallery/beforeAndAfter/4.jpg",
+              "gallery/beforeAndAfter/5.jpg",
+              "gallery/beforeAndAfter/6.jpg",
+              "gallery/beforeAndAfter/7.jpg",
             ]}
             width={"40%"}
           />
@@ -29,14 +28,18 @@ const GalleryPage = () => {
           </div>
           <ImageCarousel
             images={[
-              "gallery/photo1.jpeg",
-              "gallery/photo2.jpeg",
-              "gallery/photo3.jpeg",
-              "gallery/photo4.jpeg",
-              "gallery/photo5.jpeg",
-              "gallery/photo6.jpeg",
-              "gallery/photo7.jpeg",
-              "gallery/photo8.jpeg",
+              "gallery/course/1.jpg",
+              "gallery/course/2.jpg",
+              "gallery/course/3.jpg",
+              "gallery/course/4.jpg",
+              "gallery/course/5.jpg",
+              "gallery/course/6.jpg",
+              "gallery/course/7.jpg",
+              "gallery/course/8.jpg",
+              "gallery/course/9.jpg",
+              "gallery/course/10.jpg",
+              "gallery/course/11.jpg",
+              "gallery/course/12.jpg",
             ]}
             width={"40%"}
           />

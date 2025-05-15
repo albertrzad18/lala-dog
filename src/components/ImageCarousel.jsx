@@ -35,11 +35,11 @@ const ImageCarousel = ({ images }) => {
           <img
             src={images[getPrevIndex()]}
             alt="Previous"
-            className="absolute left-0 w-[35%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90 hidden md:block"
+            className="absolute left-78 w-[18%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90 hidden md:block"
           />
 
           <div
-            className={`relative z-10 w-full md:w-[40%] h-[100%] rounded-xl overflow-hidden flex items-center justify-center bg-black/10  shadow-xl shadow-[#7e54f0] scale-90`}
+            className={`relative z-10 w-full md:w-[24%] h-[100%] rounded-xl overflow-hidden flex items-center justify-center bg-black/10  shadow-xl shadow-[#7e54f0] scale-90`}
           >
             <AnimatePresence initial={false} custom={direction}>
               <motion.img
@@ -62,7 +62,7 @@ const ImageCarousel = ({ images }) => {
           <img
             src={images[getNextIndex()]}
             alt="Next"
-            className="absolute right-0 w-[35%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90 hidden md:block"
+            className="absolute right-78 w-[18%] h-[80%] object-cover object-center filter blur-sm opacity-50 rounded-lg scale-90 hidden md:block"
           />
         </div>
 
