@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 w-full h-17 bg-transparent md:bg-white z-50 shadow-md">
+      <nav className="fixed top-0 w-full h-15 bg-transparent md:bg-white z-50 shadow-md">
         <div className="max-w-screen-xl mx-auto flex items-center justify-center md:justify-between py-2 px-4 md:px-6">
           {!isOpen && (
             <button
