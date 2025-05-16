@@ -1,6 +1,6 @@
 import "./App.css";
 import AboutPage from "./pages/about";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import GalleryPage from "./pages/Gallery";
 import ContactPage from "./pages/Contact";
 import OfferPage from "./pages/Offer";
@@ -9,7 +9,7 @@ import DogsPage from "./pages/Dogs";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<AboutPage />}></Route>
         <Route path="/aboutMe" element={<AboutPage />}></Route>
@@ -19,7 +19,7 @@ function App() {
         <Route path="/statute" element={<StatutePage />}></Route>
         <Route path="/contact" element={<ContactPage />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
