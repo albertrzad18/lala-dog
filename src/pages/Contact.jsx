@@ -38,7 +38,7 @@ const ContactPage = () => {
             <div className="flex items-center justify-center space-x-2 sm:space-x-4 text-base sm:text-lg md:text-xl rowdies-regular">
               <Facebook className="text-[#7e54f0] w-5 h-5 sm:w-6 sm:h-6" />
               <a
-                href="https://facebook.com/twojafirma"
+                href="https://www.facebook.com/lala.dog.lublin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#7e54f0] transition-colors text-white"
