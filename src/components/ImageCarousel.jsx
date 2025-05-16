@@ -28,7 +28,7 @@ const ImageCarousel = ({ images }) => {
           onClick={prevImage}
           className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
         >
-          <ArrowLeft size={32} className="absolute left-64" />
+          <ArrowLeft size={32} />
         </button>
 
         <div className="relative flex items-center justify-center w-full max-w-[1400px] h-[600px] overflow-hidden">
@@ -69,7 +69,7 @@ const ImageCarousel = ({ images }) => {
           onClick={nextImage}
           className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
         >
-          <ArrowRight size={32} className="absolute right-64" />
+          <ArrowRight size={32} />
         </button>
       </div>
     </>
