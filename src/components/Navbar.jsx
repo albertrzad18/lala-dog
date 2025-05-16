@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 w-full h-15 bg-transparent md:bg-white z-50 md:shadow-md">
+      <nav className="absolute top-0 w-full h-15 bg-transparent md:bg-white z-50 md:shadow-md">
         <div className="max-w-screen-xl mx-auto flex items-center justify-center md:justify-between py-2 px-4 md:px-6">
           {!isOpen && (
             <button
@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 hidden md:block">
             <img
               src="logo.png"
-              className="w-24 md:w-60 rounded-full"
+              className="w-24 md:w-52 rounded-full"
               alt="Logo"
             />
           </div>
