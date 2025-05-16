@@ -17,7 +17,7 @@ const Navbar = () => {
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
 
-          <div className="absolute top-1 left-1/2 transform -translate-x-1/2 hidden md:block">
+          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 hidden md:block">
             <img
               src="logo.png"
               className="w-24 md:w-60 rounded-full"
