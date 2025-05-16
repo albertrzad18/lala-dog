@@ -23,7 +23,7 @@ const AboutPage = () => {
             </div>
             <img
               src="about/circle1.png"
-              className="w-88 h-88 rounded-full hidden md:block shadow-xl shadow-[#7e54f0]"
+              className="w-80 h-84 rounded-full hidden md:block shadow-xl shadow-[#7e54f0]"
               alt="Lala"
             />
           </div>
