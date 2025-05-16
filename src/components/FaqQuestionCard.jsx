@@ -10,3 +10,5 @@ const QuestionCard = ({ question, answer }) => {
     </div>
   );
 };
+
+export default QuestionCard;
