@@ -47,7 +47,7 @@ const ContactPage = () => {
               </a>
             </div>
             <div className="flex items-center justify-center space-x-2 sm:space-x-4 text-base sm:text-lg md:text-xl rowdies-regular">
-              <p className="text-white">
+              <p className="text-white text-center">
                 Godziny otwarcia uzależnione są od potrzeb klientów. Zapraszam
                 do kontaktu.
               </p>
