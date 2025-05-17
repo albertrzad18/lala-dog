@@ -7,7 +7,7 @@ const AboutPage = () => {
       <Navbar />
       <FadeInOut>
         <div className="pt-12 md:pt-28">
-          <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 space-x-8 md:space-y-0 flex flex-col md:flex-row items-center justify-center text-white text-center md:text-left md:gap-8">
+          <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-center text-white text-center md:text-left md:gap-8">
             <div className="w-full md:w-2/3 lg:w-1/2 space-y-4 break-words text-pretty">
               <h2 className="text-2xl md:text-4xl rowdies-bold text-[#7e54f0] mb-4">
                 pSIEMKA! Tu Ala – albo po prostu Lala
@@ -48,7 +48,7 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 space-x-8 md:space-y-0 flex flex-col md:flex-row items-center justify-center bg-purple-600 text-white text-center md:text-left md:gap-8">
+        <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-center bg-purple-600 text-white text-center md:text-left md:gap-8">
           <div className="w-full md:w-2/3 lg:w-1/2 space-y-4 break-words text-pretty">
             <p className="text-white rowdies-regular text-center">
               Przez kilka lat pracowałam w laboratorium, ale czegoś mi
