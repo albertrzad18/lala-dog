@@ -8,7 +8,7 @@ const GalleryPage = () => {
     <>
       <Navbar />
       <FadeInOut>
-        <div className="flex justify-center items-center flex-col min-h-screen pt-16 md:pt-36 font-serif">
+        <div className="flex justify-center items-center flex-col min-h-screen pt-4 md:pt-36 font-serif">
           <div className="text-4xl pt-16 rowdies-bold text-[#7e54f0] text-center">
             Zdjęcia z kursu
           </div>

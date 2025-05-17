@@ -29,7 +29,7 @@ const BeforeAndAfterCarousel = ({ images }) => {
             onClick={prevImage}
             className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
           >
-            <ArrowLeft size={32} />
+            <ArrowLeft />
           </button>
           <img
             src={images[getPrevIndex()]}
@@ -67,7 +67,7 @@ const BeforeAndAfterCarousel = ({ images }) => {
             onClick={nextImage}
             className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
           >
-            <ArrowRight size={32} />
+            <ArrowRight />
           </button>
         </div>
       </div>

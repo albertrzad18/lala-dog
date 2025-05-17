@@ -23,13 +23,13 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <>
-      <div className="w-full flex items-center justify-center gap-4 px-6">
+      <div className="w-full flex items-center justify-center gap-4">
         <div className="relative flex items-center justify-center w-full max-w-[1400px] h-[600px] overflow-hidden">
           <button
             onClick={prevImage}
             className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
           >
-            <ArrowLeft size={32} />
+            <ArrowLeft />
           </button>
           <img
             src={images[getPrevIndex()]}
@@ -67,7 +67,7 @@ const ImageCarousel = ({ images }) => {
             onClick={nextImage}
             className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"
           >
-            <ArrowRight size={32} />
+            <ArrowRight />
           </button>
         </div>
       </div>
