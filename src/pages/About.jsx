@@ -1,11 +1,12 @@
 import FadeInOut from "../components/FadeInOut";
 import Navbar from "../components/Navbar";
+import FlashLogoTransition from "../components/FlashLogoTransition";
 
 const AboutPage = () => {
   return (
     <>
-      <Navbar />
-      <FadeInOut>
+      <FlashLogoTransition>
+        <Navbar />
         <div className="pt-12 md:pt-28">
           <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-center text-white text-center md:text-left md:gap-8">
             <div className="w-full md:w-2/3 lg:w-1/2 space-y-4 break-words text-pretty">
@@ -100,7 +101,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-      </FadeInOut>
+      </FlashLogoTransition>
     </>
   );
 };

@@ -2,6 +2,7 @@ import FadeInOut from "../components/FadeInOut";
 import Navbar from "../components/Navbar";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import FlashLogoTransition from "../components/FlashLogoTransition";
 
 const Offer = () => {
   const [lightboxImg, setLightboxImg] = useState(null);
@@ -242,8 +243,8 @@ const Offer = () => {
 
   return (
     <>
-      <Navbar />
-      <FadeInOut>
+      <FlashLogoTransition>
+        <Navbar />
         <div className="pt-20 md:pt-54 px-6 md:px-16 flex flex-col items-center font-mono gap-8">
           <div className="flex gap-4 -mb-12">
             <button
@@ -278,7 +279,7 @@ const Offer = () => {
             {renderContent()}
           </div>
         </div>
-      </FadeInOut>
+      </FlashLogoTransition>
     </>
   );
 };

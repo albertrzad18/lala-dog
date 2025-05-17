@@ -1,14 +1,13 @@
-import { image } from "motion/react-client";
-import FadeInOut from "../components/FadeInOut";
 import Locator from "../components/Locator";
 import Navbar from "../components/Navbar";
 import { MapPin, Phone, Mail, Facebook } from "lucide-react";
+import FlashLogoTransition from "../components/FlashLogoTransition";
 
 const ContactPage = () => {
   return (
     <>
-      <Navbar />
-      <FadeInOut>
+      <FlashLogoTransition>
+        <Navbar />
         <img
           src="dogs/dogWithPhone.jpg"
           alt="Dog Left"
@@ -56,7 +55,7 @@ const ContactPage = () => {
 
           <Locator />
         </div>
-      </FadeInOut>
+      </FlashLogoTransition>
     </>
   );
 };

@@ -4,6 +4,7 @@ import FaqCard from "../components/FaqCard";
 import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 import TakeCareCard from "../components/TakeCareCard";
+import FlashLogoTransition from "../components/FlashLogoTransition";
 
 const Statute = () => {
   const [activeTab, setActiveTab] = useState("statute");
@@ -172,8 +173,8 @@ const Statute = () => {
 
   return (
     <>
-      <Navbar />
-      <FadeInOut>
+      <FlashLogoTransition>
+        <Navbar />
         <div className="pt-20 md:pt-50 px-6 md:px-16 flex flex-col items-center font-mono gap-8">
           <div className="flex gap-4">
             <button
@@ -219,7 +220,7 @@ const Statute = () => {
 
           <div className="w-full flex justify-center">{renderContent()}</div>
         </div>
-      </FadeInOut>
+      </FlashLogoTransition>
     </>
   );
 };
