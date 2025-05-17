@@ -19,7 +19,7 @@ const FlashLogoTransition = ({ children }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: [0, 1, 0] }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
-          className="fixed top-1/2 left-1/2 w-1/2 h-auto -translate-x-1/2 -translate-y-1/2 z-[9999] pointer-events-none"
+          className="fixed top-1/2 left-1/2 w-1/2 h-auto -translate-x-1/2 -translate-y-1/2 z-[9999] pointer-events-none p-8"
         />
       )}
       {!showLogo && children}
