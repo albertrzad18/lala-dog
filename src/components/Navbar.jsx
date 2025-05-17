@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl mx-auto flex items-center justify-center md:justify-between py-2 px-4 md:px-6">
           {!isOpen && (
             <button
-              className="md:hidden absolute top-4  bg-white p-2 rounded-full shadow-md"
+              className="md:hidden absolute top-4 bg-white p-2 rounded-full shadow-md"
               onClick={() => setIsOpen(true)}
               aria-label="Open menu"
             >
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="absolute top-0 left-0 w-full bg-white px-4 py-6 space-y-4 text-lg shadow-md flex flex-col items-center z-50 min-h-screen">
+          <div className="absolute top-0 left-0 w-full bg-white px-4 py-6 space-y-4 text-lg shadow-md flex flex-col items-center z-50">
             <button
               onClick={() => setIsOpen(false)}
               aria-label="Close menu"
