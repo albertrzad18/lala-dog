@@ -62,16 +62,16 @@ const AboutPage = () => {
             </p>
           </div>
           <img
-            src="about/circle3.png"
-            className="md:w-1/3 md:h-1/3 sm:w-1/2 sm:h=1/2 lg:w-1/3 lg:h=1/3 rounded-lg shadow-xl shadow-[#7e54f0]"
+            src="about/circle3.jpg"
+            className="md:w-1/4 md:h-1/4 sm:w-1/3 sm:h=1/3 lg:w-1/4 lg:h=1/4 rounded-lg shadow-xl shadow-[#7e54f0]"
             alt="Lala"
           />
         </div>
 
         <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-center bg-purple-800 text-white text-center md:text-left md:gap-8">
           <img
-            src="about/circle4.jpeg"
-            className="order-2 md:order-1 md:w-1/4 md:h-1/4 sm:w-1/3 sm:h=1/3 lg:w-1/4 lg:h=1/4 rounded-lg shadow-xl shadow-[#7e54f0]"
+            src="about/circle4.png"
+            className="order-2 md:order-1 md:w-1/3 md:h-1/3 sm:w-1/2 sm:h=1/2 lg:w-1/3 lg:h=1/3 rounded-lg shadow-xl shadow-[#7e54f0]"
             alt="Lala"
           />
           <div className="order-1 md:order-2 w-full md:w-2/3 lg:w-1/2 space-y-4 break-words text-pretty">
