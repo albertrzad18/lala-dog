@@ -23,15 +23,15 @@ const AboutPage = () => {
             </div>
             <img
               src="about/circle1.png"
-              className="w-44 h-54 sm:w-52 sm:h-72 md:w-60 md:h-80 rounded-full shadow-xl shadow-[#7e54f0]"
+              className="md:w-1/5 md:h-1/5 sm:w-1/4 sm:h=1/4 lg:w-1/5 lg:h=1/5 rounded-lg shadow-xl shadow-[#7e54f0]"
               alt="Lala"
             />
           </div>
         </div>
-        <div className="w-full h-full font-semibold p-4 pt-4 space-y-4 space-x-8 md:space-y-0 flex flex-col md:flex-row items-center justify-center bg-purple-400 text-white text-center md:text-left md:gap-8">
+        <div className="w-full h-full font-semibold p-4 pt-4 space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-center bg-purple-400 text-white text-center md:text-left md:gap-8">
           <img
             src="about/circle2.jpeg"
-            className="order-2 md:order-1 w-52 h-52 sm:w-60 sm:h-60 md:w-70 md:h-70 rounded-full shadow-xl shadow-[#7e54f0]"
+            className="order-2 md:order-1 md:w-1/4 md:h-1/4 sm:w-1/3 sm:h=1/3 lg:w-1/4 lg:h=1/4 rounded-lg shadow-xl shadow-[#7e54f0]"
             alt="Lala"
           />
 
@@ -63,15 +63,15 @@ const AboutPage = () => {
           </div>
           <img
             src="about/circle3.png"
-            className="w-52 h-52 sm:w-60 sm:h-60 md:w-70 md:h-70 rounded-full shadow-xl shadow-[#7e54f0]"
+            className="md:w-1/3 md:h-1/3 sm:w-1/2 sm:h=1/2 lg:w-1/3 lg:h=1/3 rounded-lg shadow-xl shadow-[#7e54f0]"
             alt="Lala"
           />
         </div>
 
-        <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 space-x-8 md:space-y-0 flex flex-col md:flex-row items-center justify-center bg-purple-800 text-white text-center md:text-left md:gap-8">
+        <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-center bg-purple-800 text-white text-center md:text-left md:gap-8">
           <img
             src="about/circle4.jpeg"
-            className="order-2 md:order-1 w-52 h-52 sm:w-60 sm:h-60 md:w-70 md:h-70 rounded-full shadow-xl shadow-[#7e54f0]"
+            className="order-2 md:order-1 md:w-1/4 md:h-1/4 sm:w-1/3 sm:h=1/3 lg:w-1/4 lg:h=1/4 rounded-lg shadow-xl shadow-[#7e54f0]"
             alt="Lala"
           />
           <div className="order-1 md:order-2 w-full md:w-2/3 lg:w-1/2 space-y-4 break-words text-pretty">
