@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 hidden md:block">
             <img
               src="logo.png"
-              className="w-24 md:w-52 rounded-full"
+              className="w-16 sm:w-24 md:w-32 lg:w-48"
               alt="Logo"
             />
           </div>
