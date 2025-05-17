@@ -1,6 +1,6 @@
 import { useState } from "react";
 import HoverLink from "./HoverLink";
-import { X } from "lucide-react";
+import { X, Menu } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,11 +11,11 @@ const Navbar = () => {
         <div className="max-w-screen-xl mx-auto flex items-center justify-center md:justify-between py-2 px-4 md:px-6">
           {!isOpen && (
             <button
-              className="md:hidden absolute top-0"
+              className="md:hidden absolute top-4  bg-white p-2 rounded-full shadow-md"
               onClick={() => setIsOpen(true)}
               aria-label="Open menu"
             >
-              <img src="logo.png" className="w-16 rounded-full" alt="Logo" />
+              <Menu size={24} className="text-black" />
             </button>
           )}
 
