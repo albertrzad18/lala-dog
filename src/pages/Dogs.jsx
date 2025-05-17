@@ -8,7 +8,7 @@ const DogsPage = () => {
       <Navbar />
       <FadeInOut>
         <div className="pt-20 md:pt-32 xl:pt-52 px-6 md:px-32 flex flex-col md:flex-row xl:flex-col items-center justify-center gap-16 font-serif">
-          <div className="w-3/4 bg-purple-300 rounded-xl p-8 space-y-6  text-white shadow-xl shadow-[#7e54f0] text-normal">
+          <div className="w-3/4 bg-purple-300 rounded-xl p-8 space-y-6 text-white shadow-xl shadow-[#7e54f0] text-normal">
             <h1 className="text-3xl md:text-4xl rowdies-bold text-[#7e54f0] text-center">
               Lager i Dorotka
             </h1>
@@ -40,6 +40,8 @@ const DogsPage = () => {
               z Lagerem i Dorotką!
             </p>
           </div>
+        </div>
+        <div className="pt-8">
           <ImageCarousel
             images={[
               "dogs/dog1.jpeg",
