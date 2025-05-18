@@ -15,8 +15,8 @@ const DogsPage = () => {
 
             <p className="rowdies-regular text-white text-center">
               Prywatnie “psia mama” dwóch najcudowniejsze kundelków pod słońcem
-              – Lager i Dorotka – ale jestem pewna, że zmieści się w nim jeszcze
-              cała gromada innych futrzastych przyjaciół!
+              – Lager i Dorotka – ale wiem, że w moim sercu zmieści się w nim
+              jeszcze cała gromada innych futrzastych przyjaciół!
             </p>
 
             <p className="rowdies-regular text-white text-center">

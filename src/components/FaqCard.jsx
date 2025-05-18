@@ -16,7 +16,7 @@ const FaqCard = () => {
     },
     {
       question: "Ile trwa wizyta?",
-      answer: `Czas trwania zależy od wielkości pupila, rodzaju usługi i stanu sierści, ale zazwyczaj zajmuje od 1,5 do 3 godzin. Pracujemy dokładnie, ale spokojnie — bez pośpiechu.`,
+      answer: `Czas trwania zależy od wielkości pupila, rodzaju usługi i stanu sierści, ale zazwyczaj zajmuje od 1,5 do 3 godzin. Pracuję dokładnie, ale spokojnie — bez pośpiechu.`,
     },
     {
       question: "Czy można obciąć pazurki?",

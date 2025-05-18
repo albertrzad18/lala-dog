@@ -19,7 +19,7 @@ const AboutPage = () => {
                 miałam kota na punkcie psów — i to całkiem dosłownie! Przez całe
                 życie towarzyszyły mi zwierzęta. Miłością do nich zaraził mnie
                 Dziadzio. Gdy w przedszkolu pytano, kim chcę zostać, odpowiedź
-                była zawsze ta sama: „Będę pracować ze zwierzętami!”
+                była zawsze ta sama:„Będę pracować ze zwierzętami!”
               </p>
             </div>
             <img
@@ -43,7 +43,7 @@ const AboutPage = () => {
               Skończyłam technikum weterynaryjne w Trzcianie koło Rzeszowa, a
               uzyskany tytuł technika weterynarii tylko utwierdził mnie w
               przekonaniu, że to właśnie moja droga. Później wróciłam do
-              rodzinnego miasta i ukończyłam studia magisterskie na kierunku
+              rodzinnego miasta, ukończyłam studia magisterskie na kierunku
               analityka weterynaryjna na Uniwersytecie Przyrodniczym w Lublinie.
             </p>
           </div>
@@ -57,9 +57,9 @@ const AboutPage = () => {
               bardziej z serca, trafiłam do groomingu. Ukończyłam podstawowy
               kurs groomerski w Dog House Grooming Academy w Krakowie i
               poczułam, że jestem dokładnie tam, gdzie powinnam być już dawno.
-              Od tamtej pory nieustannie się szkolę, poszerzam wiedzę i zdobywam
-              nowe kwalifikacje, żeby każdy pies oraz kot wychodził z mojego
-              salonu piękny, szczęśliwy i merdający ogonem.
+              Od tego czasu nieustannie się szkolę, poszerzam wiedzę i zdobywam
+              nowe kwalifikacje, żeby każdy pies oraz kot wychodził z salonu
+              piękny, szczęśliwy i merdający ogonem.
             </p>
           </div>
           <img
@@ -91,7 +91,7 @@ const AboutPage = () => {
             <p className="text-white rowdies-regular text-center">
               Lagera i Dorotkę możecie poznać wirtualnie na ich własnej
               podstronie (tak, mają więcej fanów niż ja!), a jeśli będziecie
-              mieć szczęście, przywitają Was też osobiście w salonie — w końcu
+              mieć szczęście, przywitają Was też osobiście w salonie. W końcu
               czasem wpadają ze mną do pracy, żeby pilnować porządku i czy po
               prostu się obijać i cieszyć psim, beztroskim życiem.
             </p>
