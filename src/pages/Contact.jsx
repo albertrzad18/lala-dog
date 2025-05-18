@@ -1,6 +1,6 @@
 import Locator from "../components/Locator";
 import Navbar from "../components/Navbar";
-import { MapPin, Phone, Mail, Facebook } from "lucide-react";
+import { MapPin, Phone, Facebook, Instagram } from "lucide-react";
 import FlashLogoTransition from "../components/FlashLogoTransition";
 
 const ContactPage = () => {
@@ -30,8 +30,15 @@ const ContactPage = () => {
             </div>
 
             <div className="flex items-center justify-center space-x-2 sm:space-x-4 text-base sm:text-lg md:text-xl rowdies-regular">
-              <Mail className="text-[#7e54f0] w-5 h-5 sm:w-6 sm:h-6" />
-              <p className="text-white">lager@dorotka.pl</p>
+              <Instagram className="text-[#7e54f0] w-5 h-5 sm:w-6 sm:h-6" />
+              <a
+                href="https://www.instagram.com/laladoglublin/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#7e54f0] transition-colors text-white"
+              >
+                Instagram
+              </a>
             </div>
 
             <div className="flex items-center justify-center space-x-2 sm:space-x-4 text-base sm:text-lg md:text-xl rowdies-regular">
@@ -42,7 +49,7 @@ const ContactPage = () => {
                 rel="noopener noreferrer"
                 className="hover:text-[#7e54f0] transition-colors text-white"
               >
-                Nasz Facebook
+                Facebook
               </a>
             </div>
             <div className="flex items-center justify-center space-x-2 sm:space-x-4 text-base sm:text-lg md:text-xl rowdies-regular">
