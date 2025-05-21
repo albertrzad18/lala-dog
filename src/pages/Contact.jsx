@@ -26,7 +26,7 @@ const ContactPage = () => {
 
             <div className="flex items-center justify-center space-x-2 sm:space-x-4 text-base sm:text-lg md:text-xl rowdies-regular">
               <Phone className="text-[#7e54f0] w-5 h-5 sm:w-6 sm:h-6" />
-              <p className="text-white">+695 385 299</p>
+              <p className="text-white">533994390</p>
             </div>
 
             <div className="flex items-center justify-center space-x-2 sm:space-x-4 text-base sm:text-lg md:text-xl rowdies-regular">
