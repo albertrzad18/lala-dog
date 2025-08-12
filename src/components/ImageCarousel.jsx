@@ -23,7 +23,10 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <>
-      <div className="w-full flex items-center justify-center gap-4">
+      <div
+        className="w-full flex items-center justify-center gap-4"
+        translate="no"
+      >
         <div className="relative flex items-center justify-center w-full max-w-[1400px] h-[600px] overflow-hidden">
           <button
             onClick={prevImage}

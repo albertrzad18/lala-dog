@@ -8,7 +8,10 @@ const GalleryPage = () => {
     <>
       <FlashLogoTransition>
         <Navbar />
-        <div className="flex justify-center items-center flex-col min-h-screen pt-4 md:pt-36 font-serif">
+        <div
+          className="flex justify-center items-center flex-col min-h-screen pt-4 md:pt-36 font-serif"
+          translate="no"
+        >
           <div className="text-4xl pt-16 rowdies-bold text-[#7e54f0] text-center">
             Zdjęcia z kursu
           </div>

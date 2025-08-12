@@ -13,7 +13,10 @@ const ContactPage = () => {
           alt="Dog Left"
           className="hidden md:block absolute left-84 -top-30 w-64 h-auto transform scale-200"
         />{" "}
-        <div className="pt-20 md:pt-60 px-4 sm:px-8 md:px-32 flex flex-col items-center justify-center gap-8 sm:gap-12 md:gap-16 font-mono font-semibold">
+        <div
+          className="pt-20 md:pt-60 px-4 sm:px-8 md:px-32 flex flex-col items-center justify-center gap-8 sm:gap-12 md:gap-16 font-mono font-semibold"
+          translate="no"
+        >
           <div className="w-full sm:w-3/4 h-full bg-purple-300 rounded-3xl p-6 sm:p-8 space-y-4 sm:space-y-6 shadow-xl shadow-[#7e54f0] text-white z-20">
             <h2 className="text-3xl sm:text-4xl rowdies-bold text-center text-[#7e54f0]">
               Kontakt

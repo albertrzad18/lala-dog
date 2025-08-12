@@ -18,7 +18,10 @@ const QuestionCarousel = ({ questions }) => {
   };
 
   return (
-    <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 px-6">
+    <div
+      className="w-full flex flex-col md:flex-row items-center justify-center gap-4 px-6"
+      translate="no"
+    >
       <button
         onClick={prevQuestion}
         className="p-2 rounded-full  hover:bg-[#7e54f0] z-20"

@@ -32,7 +32,10 @@ const Offer = () => {
                 alt="Dog Right"
                 className="hidden md:block absolute top-3/5 lg:top-210 md:right-12 w-64 h-auto transform scale-200"
               />
-              <div className="px-6 md:px-32 flex flex-col md:flex-row lg:flex-col items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16">
+              <div
+                className="px-6 md:px-32 flex flex-col md:flex-row lg:flex-col items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16"
+                translate="no"
+              >
                 <div
                   className="w-full h-full bg-purple-300 rounded-xl font-semibold p-8 space-y-4.5  flex flex-col items-center justify-center text-center text-white
           "
@@ -110,7 +113,10 @@ const Offer = () => {
         return (
           <>
             <FadeInOut>
-              <div className="mt-24 hidden md:flex flex-col items-center justify-center px-6 md:px-32">
+              <div
+                className="mt-24 hidden md:flex flex-col items-center justify-center px-6 md:px-32"
+                translate="no"
+              >
                 <div className="pl-128 flex flex-row items-center justify-center mb-8">
                   <img
                     src="priceList/cennik1.jpg"
@@ -245,7 +251,10 @@ const Offer = () => {
     <>
       <FlashLogoTransition>
         <Navbar />
-        <div className="pt-20 md:pt-54 px-6 md:px-16 flex flex-col items-center font-mono gap-8">
+        <div
+          className="pt-20 md:pt-54 px-6 md:px-16 flex flex-col items-center font-mono gap-8"
+          translate="no"
+        >
           <div className="flex gap-4 -mb-12">
             <button
               className={`btn relative inline-flex items-center justify-start overflow-hidden font-medium font-mono transition-all bg-[#7e54f0] group px-2.5 mb-8 ${

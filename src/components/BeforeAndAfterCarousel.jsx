@@ -23,7 +23,10 @@ const BeforeAndAfterCarousel = ({ images }) => {
 
   return (
     <>
-      <div className="w-full flex items-center justify-center gap-4 px-6">
+      <div
+        className="w-full flex items-center justify-center gap-4 px-6"
+        translate="no"
+      >
         <div className="relative flex items-center justify-center w-full max-w-[1400px] h-[600px] overflow-hidden">
           <button
             onClick={prevImage}

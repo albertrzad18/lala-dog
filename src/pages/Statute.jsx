@@ -24,7 +24,7 @@ const Statute = () => {
         return (
           <>
             <FadeInOut>
-              <div className="hidden md:flex flex-col items-center justify-center px-6 md:px-32 mt-2 ">
+              <div className="hidden md:flex flex-col items-center justify-center px-6 md:px-32 mt-2" translate="no">
                 <div className="pl-128 flex flex-row items-center justify-center mb-8">
                   <img
                     src="statute/statute1.jpg"
@@ -55,7 +55,7 @@ const Statute = () => {
               )}
             </FadeInOut>
             <FadeInOut>
-              <div className="hidden md:flex  flex-col items-center justify-center  mt-2">
+              <div className="hidden md:flex  flex-col items-center justify-center mt-2" translate="no">
                 <div className="flex flex-row items-center justify-center mb-8">
                   <img
                     src="statute/statute2.jpg"
@@ -86,7 +86,7 @@ const Statute = () => {
               )}
             </FadeInOut>
 
-            <div className="flex flex-col md:hidden -mt-8">
+            <div className="flex flex-col md:hidden -mt-8" translate="no">
               <FadeInOut>
                 <div className="flex flex-col items-center justify-center">
                   <div className="flex flex-row items-center justify-center mb-8">

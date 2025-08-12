@@ -1,7 +1,10 @@
 const StatuteCard = () => {
   return (
     <>
-      <div className="w-full bg-purple-400 rounded-xl shadow-xl p-8 space-y-6 font-bold text-gray-700">
+      <div
+        className="w-full bg-purple-400 rounded-xl shadow-xl p-8 space-y-6 font-bold text-gray-700"
+        translate="no"
+      >
         <h1 className="text-3xl md:text-3xl font-bold text-[#7e54f0] text-center">
           Regulamin
         </h1>
