@@ -36,10 +36,7 @@ const Offer = () => {
                 className="px-6 md:px-32 flex flex-col md:flex-row lg:flex-col items-center justify-center gap-12 lg:gap-16 font-serif mb-8 pb-16"
                 translate="no"
               >
-                <div
-                  className="w-full h-full bg-purple-300 rounded-xl font-semibold p-8 space-y-4.5  flex flex-col items-center justify-center text-center text-white
-          "
-                >
+                <div className="w-full h-full bg-purple-300 rounded-xl font-semibold p-8 space-y-4.5  flex flex-col items-center justify-center text-center text-white">
                   <h2 className="text-2xl md:text-4xl rowdies-bold text-[#7e54f0] mb-4">
                     Dlaczego Lala Dog?
                   </h2>
@@ -112,136 +109,84 @@ const Offer = () => {
       case "priceList":
         return (
           <>
+            {/* Desktop */}
             <FadeInOut>
-              <div
-                className="mt-24 hidden md:flex flex-col items-center justify-center px-6 md:px-32"
-                translate="no"
-              >
-                <div className="pl-128 flex flex-row items-center justify-center mb-8">
-                  <img
-                    src="priceList/cennik1.jpg"
-                    alt="Price List"
-                    className="mt-8 max-w-xl rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0] scale-[3.2] xl:scale-[1.2] "
-                    onClick={() => openLightbox("priceList/cennik1.jpg")}
-                  />
-                </div>
+              <div className="mt-12 hidden md:flex flex-wrap justify-center gap-8 px-6 md:px-32">
+                <img
+                  src="priceList/cennik1.png"
+                  alt="Price List 1"
+                  className="max-w-xl rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                  onClick={() => openLightbox("priceList/cennik1.png")}
+                />
+                <img
+                  src="priceList/cennik2.png"
+                  alt="Price List 2"
+                  className="max-w-xl rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                  onClick={() => openLightbox("priceList/cennik2.png")}
+                />
+                <img
+                  src="priceList/cennik3.png"
+                  alt="Price List 3"
+                  className="max-w-xl rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                  onClick={() => openLightbox("priceList/cennik3.png")}
+                />
               </div>
-              {lightboxImg && (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.15 }}
-                >
-                  <div
-                    className="fixed inset-0 backdrop-blur-md bg-black/40 flex items-center justify-center z-50"
-                    onClick={closeLightbox}
-                  >
-                    <img
-                      src={lightboxImg}
-                      alt="Large preview"
-                      className="max-w-full max-h-full rounded-lg shadow-2xl"
-                    />
-                  </div>
-                </motion.div>
-              )}
-            </FadeInOut>
-            <FadeInOut>
-              <div className="mt-24 hidden md:flex  flex-col items-center justify-center">
-                <div className="flex flex-row items-center justify-center mb-8">
-                  <img
-                    src="priceList/cennik2.jpg"
-                    alt="Price List"
-                    className="mt-8 mr-160 max-w-xl rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0] scale-[3.2] xl:scale-[1.2]"
-                    onClick={() => openLightbox("priceList/cennik2.jpg")}
-                  />
-                </div>
-              </div>
-              {lightboxImg && (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.15 }}
-                >
-                  <div
-                    className="fixed inset-0 backdrop-blur-md bg-black/40 flex items-center justify-center z-50"
-                    onClick={closeLightbox}
-                  >
-                    <img
-                      src={lightboxImg}
-                      alt="Large preview"
-                      className="max-w-full max-h-full rounded-lg shadow-2xl"
-                    />
-                  </div>
-                </motion.div>
-              )}
             </FadeInOut>
 
-            <div className="flex flex-col md:hidden -mt-1">
+            {/* Mobile */}
+            <div className="flex flex-col md:hidden -mt-1 space-y-6">
               <FadeInOut>
                 <div className="flex flex-col items-center justify-center">
-                  <div className="flex flex-row items-center justify-center mb-8">
-                    <img
-                      src="priceList/cennik1.jpg"
-                      alt="Price List"
-                      className="max-w-l rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
-                      onClick={() => openLightbox("priceList/cennik1.jpg")}
-                    />
-                  </div>
+                  <img
+                    src="priceList/cennik1.png"
+                    alt="Price List 1"
+                    className="max-w-l rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                    onClick={() => openLightbox("priceList/cennik1.png")}
+                  />
                 </div>
-                {lightboxImg && (
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.15 }}
-                  >
-                    <div
-                      className="fixed inset-0 backdrop-blur-md bg-black/40 flex items-center justify-center z-50"
-                      onClick={closeLightbox}
-                    >
-                      <img
-                        src={lightboxImg}
-                        alt="Large preview"
-                        className="max-w-full max-h-full rounded-lg shadow-2xl"
-                      />
-                    </div>
-                  </motion.div>
-                )}
               </FadeInOut>
               <FadeInOut>
                 <div className="flex flex-col items-center justify-center">
-                  <div className="flex flex-row items-center justify-center mb-8">
-                    <img
-                      src="priceList/cennik2.jpg"
-                      alt="Price List"
-                      className="max-w-l rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
-                      onClick={() => openLightbox("priceList/cennik2.jpg")}
-                    />
-                  </div>
+                  <img
+                    src="priceList/cennik2.png"
+                    alt="Price List 2"
+                    className="max-w-l rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                    onClick={() => openLightbox("priceList/cennik2.png")}
+                  />
                 </div>
-                {lightboxImg && (
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.15 }}
-                  >
-                    <div
-                      className="fixed inset-0 backdrop-blur-md bg-black/40 flex items-center justify-center z-50"
-                      onClick={closeLightbox}
-                    >
-                      <img
-                        src={lightboxImg}
-                        alt="Large preview"
-                        className="max-w-full max-h-full rounded-lg shadow-2xl"
-                      />
-                    </div>
-                  </motion.div>
-                )}
+              </FadeInOut>
+              <FadeInOut>
+                <div className="flex flex-col items-center justify-center">
+                  <img
+                    src="priceList/cennik3.png"
+                    alt="Price List 3"
+                    className="max-w-l rounded-xl cursor-pointer shadow-xl shadow-[#7e54f0]"
+                    onClick={() => openLightbox("priceList/cennik3.png")}
+                  />
+                </div>
               </FadeInOut>
             </div>
+
+            {/* Lightbox */}
+            {lightboxImg && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.15 }}
+              >
+                <div
+                  className="fixed inset-0 backdrop-blur-md bg-black/40 flex items-center justify-center z-50"
+                  onClick={closeLightbox}
+                >
+                  <img
+                    src={lightboxImg}
+                    alt="Large preview"
+                    className="max-w-full max-h-full rounded-lg shadow-2xl"
+                  />
+                </div>
+              </motion.div>
+            )}
           </>
         );
     }

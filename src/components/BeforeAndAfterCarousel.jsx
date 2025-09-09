@@ -41,7 +41,7 @@ const BeforeAndAfterCarousel = ({ images }) => {
           />
 
           <div
-            className={`relative z-10 w-full md:w-[24%] h-[110%] rounded-xl overflow-hidden flex items-center justify-center bg-black/10  shadow-xl shadow-[#7e54f0] scale-90`}
+            className={`relative z-10 w-full md:w-[26%] h-[110%] rounded-xl overflow-hidden flex items-center justify-center bg-black/10  shadow-xl shadow-[#7e54f0] scale-90`}
           >
             <AnimatePresence initial={false} custom={direction}>
               <motion.img

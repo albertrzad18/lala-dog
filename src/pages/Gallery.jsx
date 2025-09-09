@@ -4,6 +4,11 @@ import BeforeAndAfterCarousel from "../components/BeforeAndAfterCarousel";
 import FlashLogoTransition from "../components/FlashLogoTransition";
 
 const GalleryPage = () => {
+  const images = [];
+  for (let i = 1; i <= 37; i++) {
+    images.push(`gallery/beforeAndAfter/${i}.jpg`);
+  }
+
   return (
     <>
       <FlashLogoTransition>
@@ -35,18 +40,7 @@ const GalleryPage = () => {
           <div className="text-4xl pt-8 rowdies-bold text-[#7e54f0] text-center">
             Nasi klienci przed i po
           </div>
-          <BeforeAndAfterCarousel
-            images={[
-              "gallery/beforeAndAfter/1.jpg",
-              "gallery/beforeAndAfter/2.jpg",
-              "gallery/beforeAndAfter/3.jpg",
-              "gallery/beforeAndAfter/4.jpg",
-              "gallery/beforeAndAfter/5.jpg",
-              "gallery/beforeAndAfter/6.jpg",
-              "gallery/beforeAndAfter/7.jpg",
-            ]}
-            width={"40%"}
-          />
+          <BeforeAndAfterCarousel images={images} width={"40%"} />
         </div>
       </FlashLogoTransition>
     </>
