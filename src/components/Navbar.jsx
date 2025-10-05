@@ -24,10 +24,10 @@ const Navbar = ({ showLogo = true }) => {
 
           {showLogo && (
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 hidden md:block">
-              <a href="https://example.com">
+              <a href="/">
                 <img
                   src="logo.png"
-                  className="w-16 sm:w-24 md:w-32 lg:w-48 rounded-full"
+                  className="w-16 sm:w-24 md:w-32 lg:w-48 rounded-full transition-all duration-300 hover:scale-110"
                   alt="Logo"
                 ></img>
               </a>
