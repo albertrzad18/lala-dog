@@ -32,7 +32,7 @@ const HomePage = () => {
               </h1>
               <div className="flex sm:flex-row md:flex-row text-lg sm:text-xl md:text-2xl gap-x-4 w-full justify-center mt-2 md:mt-0 items-stretch md:mb-3">
                 <div className="rowdies-bold flex flex-col text-center items-center text-black bg-white p-4 rounded-3xl border-purple-400 border-4 shadow-md shadow-[#7e54f0] hover:no-underline hover:transform-none hover:text-shadow-none ">
-                  <Phone className="w-7 h-7 sm:w-7 sm:h-7 mt-2 md:mt-0" />
+                  <Phone className="w-7 h-7 sm:w-7 sm:h-7 mt-1 md:mt-0.5" />
                   <a className="flex flex-col text-nowrap">
                     <a>Zadzwoń:</a>
                     <a>533 994 390</a>
