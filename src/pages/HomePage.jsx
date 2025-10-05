@@ -4,7 +4,7 @@ import FlashLogoTransition from "../components/FlashLogoTransition";
 import { MapPin, Phone } from "lucide-react";
 
 const cardStyle =
-  "rowdies-bold bg-white text-center text-lg sm:text-xl md:text-2xl rounded-3xl p-4 shadow-md shadow-[#7e54f0] hover:no-underline hover:transform-none hover:text-shadow-none border-purple-400 border-4";
+  "rowdies-regular bg-white text-center text-lg sm:text-xl md:text-2xl rounded-3xl p-4 shadow-md shadow-[#7e54f0] hover:no-underline hover:transform-none hover:text-shadow-none border-purple-400 border-4";
 
 const HomePage = () => {
   return (
@@ -14,19 +14,19 @@ const HomePage = () => {
         <div className="flex flex-col items-center justify-center w-full md:px-14  px-4 py-6 mt-12 md:mt-32">
           <div className="flex flex-col md:flex-row w-full items-center justify-start gap-8 ">
             <div className="flex flex-col items-center md:items-center text-center md:text-left flex-1 md:gap-y-8">
-              <h1 className="flex flex-row md:flex-row items-center text-center justify-center gap-x-8">
-                <div className="flex flex-col flex-1/3 gap-2 items-center md:items-start">
+              <h1 className="flex flex-row md:flex-row items-center text-center justify-center md:gap-x-8">
+                <div className="flex flex-col flex-1/3 gap-2 items-center md:items-start ml-6 md:ml-0">
                   <h1 className="rowdies-bold text-6xl sm:text-7xl md:text-9xl text-white ">
                     Lala Dog
                   </h1>
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl mt-2 quote-italic text-white hover:no-underline hover:shadow-none hover:text-shadow-none text-center">
+                  <h2 className="text-xl sm:text-3xl md:text-4xl mt-2 quote-italic text-white hover:no-underline hover:shadow-none hover:text-shadow-none text-center">
                     Ulubiony fryzjer twojego psa i kota w Lublinie
                   </h2>
                 </div>
 
                 <img
                   src="/logo.png"
-                  className="w-48 sm:w-60 md:w-24 flex-2/3"
+                  className="w-56 sm:w-60 md:w-24 flex-2/3"
                   alt="Lala Dog logo"
                 />
               </h1>

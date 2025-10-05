@@ -82,6 +82,13 @@ const Navbar = ({ showLogo = true }) => {
             >
               <X size={28} />
             </button>
+            <a href="/">
+              <img
+                src="logo.png"
+                className="w-16 sm:w-24 md:w-32 lg:w-48 rounded-full transition-all duration-300 hover:scale-110"
+                alt="Logo"
+              ></img>
+            </a>
             <HoverLink text="O mnie" link="/aboutMe" />
             <HoverLink text="Oferta i cennik" link="/offer" />
             <HoverLink text="Kontakt" link="/contact" />
