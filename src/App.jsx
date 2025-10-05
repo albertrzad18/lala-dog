@@ -6,12 +6,13 @@ import ContactPage from "./pages/Contact";
 import OfferPage from "./pages/Offer";
 import StatutePage from "./pages/Statute";
 import DogsPage from "./pages/Dogs";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<AboutPage />}></Route>
+        <Route path="/" element={<HomePage />}></Route>
         <Route path="/aboutMe" element={<AboutPage />}></Route>
         <Route path="/offer" element={<OfferPage />}></Route>
         <Route path="/dogs" element={<DogsPage />}></Route>

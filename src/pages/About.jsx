@@ -9,10 +9,10 @@ const AboutPage = () => {
         <Navbar />
         <div className="pt-12 md:pt-28" translate="no">
           <div className="w-full h-full font-semibold p-4 pt-8 space-y-4 md:space-y-0 flex flex-col md:flex-row items-center justify-center text-white text-center md:text-left md:gap-8">
-            <div className="w-full md:w-2/3 lg:w-1/2 space-y-4 break-words text-pretty">
-              <h2 className="text-2xl md:text-4xl rowdies-bold text-[#7e54f0] mb-4">
+            <div className="w-full md:w-2/3 lg:w-1/2 space-y-4 break-words text-pretty text-center">
+              <h1 className="text-2xl md:text-4xl rowdies-bold text-[#7e54f0] mb-4">
                 pSIEMKA! Tu Ala – albo po prostu Lala
-              </h2>
+              </h1>
               <p className="rowdies-regular text-white text-center">
                 Tak mówią do mnie w rodzinie od dziecka i tak już zostało.
                 Zwierzętami interesowałam się odkąd tylko pamiętam. Mówią, że
@@ -24,7 +24,7 @@ const AboutPage = () => {
             </div>
             <img
               src="about/circle1.png"
-              className="md:w-1/5 md:h-1/5 sm:w-1/4 sm:h=1/4 lg:w-1/5 lg:h=1/5 rounded-lg shadow-xl shadow-[#7e54f0]"
+              className="md:w-1/5 md:h-1/5 sm:w-1/4 sm:h=1/4 lg:w-1/5 lg:h=1/5 rounded-lg shadow-xl shadow-[#7e54f0] mb-8"
               alt="Lala"
             />
           </div>

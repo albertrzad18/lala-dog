@@ -26,4 +26,11 @@ body {
     font-weight: 700;
     font-style: italic;
   }
+
+  .quote-italic {
+    font-style: italic;
+    font-size: inherit;
+    transform: skewX(-10deg);
+    display: inline-block;
+  }
 }

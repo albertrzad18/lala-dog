@@ -2,7 +2,7 @@ import { useState } from "react";
 import HoverLink from "./HoverLink";
 import { X, Menu } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({ showLogo = true }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -22,15 +22,24 @@ const Navbar = () => {
             </button>
           )}
 
-          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 hidden md:block">
-            <img
-              src="logo.png"
-              className="w-16 sm:w-24 md:w-32 lg:w-48"
-              alt="Logo"
-            />
-          </div>
+          {showLogo && (
+            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 hidden md:block">
+              <a href="https://example.com">
+                <img
+                  src="logo.png"
+                  className="w-16 sm:w-24 md:w-32 lg:w-48 rounded-full"
+                  alt="Logo"
+                ></img>
+              </a>
+            </div>
+          )}
 
-          <ul className="hidden md:flex flex-row justify-center gap-8 text-xl whitespace-nowrap">
+          <ul
+            className={
+              "hidden md:flex flex-row justify-center text-xl whitespace-nowrap " +
+              (showLogo ? "gap-8" : "ml-56")
+            }
+          >
             <li>
               <HoverLink text="O mnie" link="/aboutMe" />
             </li>
@@ -42,7 +51,12 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <ul className="hidden md:flex flex-row gap-8 text-xl whitespace-nowrap">
+          <ul
+            className={
+              "hidden md:flex flex-row justify-center text-xl whitespace-nowrap " +
+              (showLogo ? "gap-8" : "mr-56")
+            }
+          >
             <li>
               <HoverLink text="Galeria" link="/gallery" />
             </li>
@@ -56,7 +70,11 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="absolute top-0 left-0 w-full bg-white px-4 py-6 space-y-4 text-lg shadow-md flex flex-col items-center z-50">
+          <div
+            className={
+              "absolute top-0 left-0 w-full bg-white px-4 py-6 space-y-4 text-lg shadow-md flex flex-col items-center z-5"
+            }
+          >
             <button
               onClick={() => setIsOpen(false)}
               aria-label="Close menu"
